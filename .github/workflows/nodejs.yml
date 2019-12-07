@@ -1,12 +1,9 @@
 name: Node CI
 
-on: 
-  push:
-    branches: 
-      - master
-jobs:
-  build:
+on: [push]
 
+jobs:
+  build-and-deploy:
     runs-on: ubuntu-latest
 
     strategy:
@@ -26,8 +23,9 @@ jobs:
       env:
         CI: true
     - name: GitHub Pages Deploy
-      uses: maxheld83/ghpages@v0.2.1
-      env = {
-          BUILD_DIR = "public/"
-      }
-      secrets = ["GH_PAT"]
+      uses: JamesIves/github-pages-deploy-action@releases/v3
+      with:
+        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        BASE_BRANCH: master
+        BRANCH: gh-pages
+        FOLDER: public
