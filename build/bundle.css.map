@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "file": "bundle.css",
+  "sources": [
+    "../../src/Game.svelte"
+  ],
+  "sourcesContent": [
+    "<script>\n    import { createEventDispatcher } from 'svelte'\n    import { writable } from 'svelte/store'\n    import { tweened } from 'svelte/motion'\n    import politicians from '../councillors.json'\n    let counter = 0\n    let politician = politicians[0]\n    const dispatch = createEventDispatcher()\n    let time = tweened(1, { duration: 10000 })\n    time.set(0)\n    function next() {\n        const index = Number.parseInt(Math.random()*politicians.length)\n        politician = politicians[index]\n        counter++\n        time = tweened(1, { duration: 10000 })\n        time.set(0)\n        if(counter > 5) {\n            dispatch('end')\n        }\n    }\n</script>\n\n<h2>Wer bin ich?</h2>\n<h3>{counter} / {politicians.length}</h3>\n<img src={politician.ImageUrl} alt=\"image of\">\n<div>\n    <progress value={$time} />\n</div>\n<p>\n<button on:click={next}>next</button>\n</p>\n\n<style>\n    progress {\n        width: 100%;\n    }\n</style>"
+  ],
+  "names": [],
+  "mappings": "AAiCI,QAAQ,eAAC,CAAC,AACN,KAAK,CAAE,IAAI,AACf,CAAC"
+}
