@@ -27,3 +27,7 @@ jobs:
         CI: true
     - name: GitHub Pages Deploy
       uses: maxheld83/ghpages@v0.2.1
+      env = {
+          BUILD_DIR = "public/"
+      }
+      secrets = ["GH_PAT"]
