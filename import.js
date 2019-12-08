@@ -6,7 +6,6 @@ const api = axios.create({
 const imageUrl = id => `https://www.parlament.ch/sitecollectionimages/profil/portrait-260/${id}.jpg`
 async function init() {
     const res = await api.get(`Person?$filter=Language eq 'DE'&$expand=MembersCouncil/MembersParty`)
-    // console.log(res.data.d.results[0].MembersCouncil.MembersParty.results[0])
 
     const councillors = res.data.d.results.map(councillor => {
         return {
@@ -18,10 +17,22 @@ async function init() {
             ImageUrl: councillor.PersonIdCode && imageUrl(councillor.PersonIdCode),
             PartyName: councillor.MembersCouncil && councillor.MembersCouncil.MembersParty.results[0] && councillor.MembersCouncil.MembersParty.results[0].PartyName,
         }
-    }).filter(councillor => councillor.ImageUrl)
+    })
+    .filter(councillor => councillor.ImageUrl)
+    
+    const promisses = councillors.map(async councillor => {
+        const { ImageUrl } = councillor
+        try {
+            await axios.get(ImageUrl)
+            return councillor
+        } catch(err) {
+            return null
+        }
+    })
 
-    fs.writeFileSync('councillors.json', JSON.stringify(councillors, null, 2))
-    //console.log(councillors)
+    const validCouncillors = (await axios.all(promisses)).filter(p => p !== null)
+
+    fs.writeFileSync('councillors.json', JSON.stringify(validCouncillors, null, 2))
 }
 
 init()

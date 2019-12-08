@@ -6161,14 +6161,6 @@
     "PartyName": "Schweizerische Volkspartei"
   },
   {
-    "ID": 826,
-    "FirstName": "Annemarie",
-    "LastName": "Huber-Hotz",
-    "GenderAsString": "f",
-    "PersonIdCode": 2576,
-    "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/2576.jpg"
-  },
-  {
     "ID": 827,
     "FirstName": "Micheline",
     "LastName": "Calmy-Rey",
@@ -6176,24 +6168,6 @@
     "PersonIdCode": 2577,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/2577.jpg",
     "PartyName": "Sozialdemokratische Partei der Schweiz"
-  },
-  {
-    "ID": 831,
-    "FirstName": "Achille",
-    "LastName": "Casanova",
-    "GenderAsString": "m",
-    "PersonIdCode": 2581,
-    "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/2581.jpg",
-    "PartyName": null
-  },
-  {
-    "ID": 832,
-    "FirstName": "Hanna",
-    "LastName": "Muralt Müller",
-    "GenderAsString": "f",
-    "PersonIdCode": 2582,
-    "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/2582.jpg",
-    "PartyName": null
   },
   {
     "ID": 1059,
@@ -6786,14 +6760,6 @@
     "PersonIdCode": 2645,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/2645.jpg",
     "PartyName": "FDP.Die Liberalen"
-  },
-  {
-    "ID": 1257,
-    "FirstName": "François",
-    "LastName": "Couchepin",
-    "GenderAsString": "m",
-    "PersonIdCode": 9301,
-    "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/9301.jpg"
   },
   {
     "ID": 1267,
