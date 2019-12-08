@@ -2,7 +2,7 @@
 	import Game from './Game.svelte'
 	let playing = false
 	let ende = false
-	let lastScore
+	let lastScore = null
 
 	function play() {
 		playing = true
@@ -16,8 +16,15 @@
 		ende = true
 		lastScore = e.detail
 	}
+	function onKeydown(e) {
+        switch(e.key) {
+            case " ":
+                play()
+				break
+		}
+	}
 </script>
-
+<svelte:window on:keydown={onKeydown} />
 <main>
 	<h1>Guess the Politician</h1>
 	{#if playing}
@@ -25,8 +32,8 @@
 		<Game on:end={end} />
 	{:else}
 		<button on:click={play}>Play</button>
-		{#if lastScore !== undefined}
+		{#if lastScore !== null}
 			<h2>Your Score: {lastScore}</h2>
-		{/if}
+		{/if}	
 	{/if}
 </main>
