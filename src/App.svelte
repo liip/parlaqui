@@ -2,6 +2,7 @@
 	import Game from './Game.svelte'
 	let playing = false
 	let ende = false
+	let lastScore
 
 	function play() {
 		playing = true
@@ -10,9 +11,10 @@
 		playing = false
 		ende = true
 	}
-	function end() {
+	function end(e) {
 		playing = false
 		ende = true
+		lastScore = e.detail
 	}
 </script>
 
@@ -23,5 +25,8 @@
 		<Game on:end={end} />
 	{:else}
 		<button on:click={play}>Play</button>
+		{#if lastScore !== undefined}
+			<h2>Your Score: {lastScore}</h2>
+		{/if}
 	{/if}
 </main>
