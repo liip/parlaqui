@@ -109,7 +109,7 @@
 <button on:click={() => onAnswer(answer)} class={showResults ? (answer.wright ? 'wright' : 'wrong') : ''}>{answer.FirstName} {answer.LastName}</button>
 {/each}
 </div>
-{rightAnswers}
+Score: {rightAnswers}
 </section>
 <style>
     .buttons {
@@ -120,7 +120,7 @@
     }
     button:focus {
         outline: 0;
-        border-color: transparent;
+        border-color: #ccc;
     }
     section {
         text-align: center;

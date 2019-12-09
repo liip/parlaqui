@@ -32,29 +32,6 @@
 			y: centerY + (radius * Math.sin(angleInRadians))
 		};
 	}
-	/*
-	let tw = tweened(0, { duration: 5000 })
-	tw.set(359)
-
-	$: opts = {
-		cx: 200,
-		cy: 200,
-		radius: 200,
-		start_angle: 0,
-		end_angle: $tw,
-	};
-
-	$: start = polarToCartesian(opts.cx, opts.cy, opts.radius, opts.end_angle)
-	$: end2 = polarToCartesian(opts.cx, opts.cy, opts.radius, opts.start_angle)
-	$: largeArcFlag = opts.end_angle - opts.start_angle <= 180 ? "0" : "1"
-
-	$: d = [
-		"M", start.x, start.y,
-		"A", opts.radius, opts.radius, 0, largeArcFlag, 0, end2.x, end2.y,
-		"L", opts.cx, opts.cy,
-		"Z"
-	].join(" ");
-	*/
 </script>
 <style>
 	main {
@@ -62,6 +39,10 @@
 		margin-right: auto;
 		padding: 0 1rem;
 		width: 340px;
+	}
+	button {
+		margin-top: 1rem;
+		width: 100%;
 	}
 </style>
 <svelte:window on:keydown={onKeydown} />
