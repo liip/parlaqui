@@ -69,7 +69,7 @@
 	<h1>Guess the Politician</h1>
 	{#if playing}		
 		<Game on:end={end} />
-		<button on:click={stop}>Stop</button>
+		<button on:click={stop}>Quit</button>
 	{:else}
 		<button on:click={play}>Play</button>
 		{#if lastScore !== null}

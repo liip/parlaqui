@@ -101,7 +101,7 @@
 <div>
     <progress value={$time} />
 </div>
-<div>
+<div class="buttons">
 {#each answers as answer}
 <button on:click={() => onAnswer(answer)} class={showResults ? (answer.wright ? 'wright' : 'wrong') : ''}>{answer.FirstName} {answer.LastName}</button>
 {/each}
@@ -109,6 +109,15 @@
 {rightAnswers}
 </section>
 <style>
+    .buttons {
+        padding-top: 1rem;
+    }
+    button {
+        width: 100%;
+    }
+    button:focus {
+        display: none;
+    }
     section {
         text-align: center;
     }
