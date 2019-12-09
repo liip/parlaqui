@@ -115,9 +115,6 @@
     button {
         width: 100%;
     }
-    button:focus {
-        display: none;
-    }
     section {
         text-align: center;
     }
