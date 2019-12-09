@@ -5,7 +5,8 @@ const api = axios.create({
 })
 const imageUrl = id => `https://www.parlament.ch/sitecollectionimages/profil/portrait-260/${id}.jpg`
 async function init() {
-    const res = await api.get(`Person?$filter=Language eq 'DE'&$expand=MembersCouncil/MembersParty`)
+    const res = await api.get(`Person?$filter=Language eq 'DE' and MembersCouncil/Council eq 1 and MembersCouncil/Active eq true&$expand=MembersCouncil`)
+    console.log(res.data.d.results.length)
 
     const councillors = res.data.d.results.map(councillor => {
         return {
@@ -15,7 +16,7 @@ async function init() {
             GenderAsString: councillor.GenderAsString,            
             PersonIdCode: councillor.PersonIdCode,
             ImageUrl: councillor.PersonIdCode && imageUrl(councillor.PersonIdCode),
-            PartyName: councillor.MembersCouncil && councillor.MembersCouncil.MembersParty.results[0] && councillor.MembersCouncil.MembersParty.results[0].PartyName,
+            PartyName: councillor.MembersCouncil && councillor.MembersCouncil.PartyName,
         }
     })
     .filter(councillor => councillor.ImageUrl)
