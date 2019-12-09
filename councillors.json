@@ -4,1826 +4,1623 @@
     "FirstName": "Christoph",
     "LastName": "Eymann",
     "GenderAsString": "m",
-    "PersonIdCode": 2287,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/2287.jpg",
-    "PartyName": "Liberal-Demokratische Partei"
+    "PartyAbbreviation": "LDP"
   },
   {
     "ID": 491,
     "FirstName": "Pierre-Yves",
     "LastName": "Maillard",
     "GenderAsString": "m",
-    "PersonIdCode": 2513,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/2513.jpg",
-    "PartyName": "Sozialdemokratische Partei der Schweiz"
+    "PartyAbbreviation": "SP"
   },
   {
     "ID": 724,
     "FirstName": "Daniel",
     "LastName": "Brélaz",
     "GenderAsString": "m",
-    "PersonIdCode": 2023,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/2023.jpg",
-    "PartyName": "Grüne Partei der Schweiz"
+    "PartyAbbreviation": "GPS"
   },
   {
     "ID": 1071,
     "FirstName": "Ruth",
     "LastName": "Humbel",
     "GenderAsString": "f",
-    "PersonIdCode": 2580,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/2580.jpg",
-    "PartyName": "Christlichdemokratische Volkspartei der Schweiz"
+    "PartyAbbreviation": "CVP"
   },
   {
     "ID": 1109,
     "FirstName": "Gerhard",
     "LastName": "Pfister",
     "GenderAsString": "m",
-    "PersonIdCode": 2623,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/2623.jpg",
-    "PartyName": "Christlichdemokratische Volkspartei der Schweiz"
+    "PartyAbbreviation": "CVP"
   },
   {
     "ID": 1122,
     "FirstName": "Kurt",
     "LastName": "Fluri",
     "GenderAsString": "m",
-    "PersonIdCode": 2594,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/2594.jpg",
-    "PartyName": "FDP.Die Liberalen"
+    "PartyAbbreviation": "FDP-Liberale"
   },
   {
     "ID": 1138,
     "FirstName": "Martin",
     "LastName": "Bäumle",
     "GenderAsString": "m",
-    "PersonIdCode": 2585,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/2585.jpg",
-    "PartyName": "Grünliberale Partei"
+    "PartyAbbreviation": "glp"
   },
   {
     "ID": 1139,
     "FirstName": "Christa",
     "LastName": "Markwalder",
     "GenderAsString": "f",
-    "PersonIdCode": 2614,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/2614.jpg",
-    "PartyName": "FDP.Die Liberalen"
+    "PartyAbbreviation": "FDP-Liberale"
   },
   {
     "ID": 1142,
     "FirstName": "Walter",
     "LastName": "Wobmann",
     "GenderAsString": "m",
-    "PersonIdCode": 2638,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/2638.jpg",
-    "PartyName": "Schweizerische Volkspartei"
+    "PartyAbbreviation": "SVP"
   },
   {
     "ID": 1159,
     "FirstName": "Pirmin",
     "LastName": "Schwander",
     "GenderAsString": "m",
-    "PersonIdCode": 2631,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/2631.jpg",
-    "PartyName": "Schweizerische Volkspartei"
+    "PartyAbbreviation": "SVP"
   },
   {
     "ID": 1279,
     "FirstName": "Roger",
     "LastName": "Nordmann",
     "GenderAsString": "m",
-    "PersonIdCode": 2648,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/2648.jpg",
-    "PartyName": "Sozialdemokratische Partei der Schweiz"
+    "PartyAbbreviation": "SP"
   },
   {
     "ID": 1295,
     "FirstName": "Edith",
     "LastName": "Graf-Litscher",
     "GenderAsString": "f",
-    "PersonIdCode": 2652,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/2652.jpg",
-    "PartyName": "Sozialdemokratische Partei der Schweiz"
+    "PartyAbbreviation": "SP"
   },
   {
     "ID": 1337,
     "FirstName": "Ida",
     "LastName": "Glanzmann-Hunkeler",
     "GenderAsString": "f",
-    "PersonIdCode": 2657,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/2657.jpg",
-    "PartyName": "Christlichdemokratische Volkspartei der Schweiz"
+    "PartyAbbreviation": "CVP"
   },
   {
     "ID": 1346,
     "FirstName": "Isabelle",
     "LastName": "Moret",
     "GenderAsString": "f",
-    "PersonIdCode": 2660,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/2660.jpg",
-    "PartyName": "FDP.Die Liberalen"
+    "PartyAbbreviation": "FDP-Liberale"
   },
   {
     "ID": 3867,
     "FirstName": "Andreas",
     "LastName": "Aebi",
     "GenderAsString": "m",
-    "PersonIdCode": 2670,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/2670.jpg",
-    "PartyName": "Schweizerische Volkspartei"
+    "PartyAbbreviation": "SVP"
   },
   {
     "ID": 3872,
     "FirstName": "Jacques",
     "LastName": "Bourgeois",
     "GenderAsString": "m",
-    "PersonIdCode": 2675,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/2675.jpg",
-    "PartyName": "FDP.Die Liberalen"
+    "PartyAbbreviation": "FDP-Liberale"
   },
   {
     "ID": 3876,
     "FirstName": "Yvette",
     "LastName": "Estermann",
     "GenderAsString": "f",
-    "PersonIdCode": 2679,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/2679.jpg",
-    "PartyName": "Schweizerische Volkspartei"
+    "PartyAbbreviation": "SVP"
   },
   {
     "ID": 3877,
     "FirstName": "Doris",
     "LastName": "Fiala",
     "GenderAsString": "f",
-    "PersonIdCode": 2680,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/2680.jpg",
-    "PartyName": "FDP.Die Liberalen"
+    "PartyAbbreviation": "FDP-Liberale"
   },
   {
     "ID": 3880,
     "FirstName": "Andrea Martina",
     "LastName": "Geissbühler",
     "GenderAsString": "f",
-    "PersonIdCode": 2683,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/2683.jpg",
-    "PartyName": "Schweizerische Volkspartei"
+    "PartyAbbreviation": "SVP"
   },
   {
     "ID": 3882,
     "FirstName": "Bastien",
     "LastName": "Girod",
     "GenderAsString": "m",
-    "PersonIdCode": 2685,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/2685.jpg",
-    "PartyName": "Grüne Partei der Schweiz"
+    "PartyAbbreviation": "GPS"
   },
   {
     "ID": 3885,
     "FirstName": "Jean-Pierre",
     "LastName": "Grin",
     "GenderAsString": "m",
-    "PersonIdCode": 2688,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/2688.jpg",
-    "PartyName": "Schweizerische Volkspartei"
+    "PartyAbbreviation": "SVP"
   },
   {
     "ID": 3887,
     "FirstName": "Alfred",
     "LastName": "Heer",
     "GenderAsString": "m",
-    "PersonIdCode": 2690,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/2690.jpg",
-    "PartyName": "Schweizerische Volkspartei"
+    "PartyAbbreviation": "SVP"
   },
   {
     "ID": 3890,
     "FirstName": "Thomas",
     "LastName": "Hurter",
     "GenderAsString": "m",
-    "PersonIdCode": 2693,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/2693.jpg",
-    "PartyName": "Schweizerische Volkspartei"
+    "PartyAbbreviation": "SVP"
   },
   {
     "ID": 3895,
     "FirstName": "Christian",
     "LastName": "Lüscher",
     "GenderAsString": "m",
-    "PersonIdCode": 2698,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/2698.jpg",
-    "PartyName": "FDP.Die Liberalen"
+    "PartyAbbreviation": "FDP-Liberale"
   },
   {
     "ID": 3897,
     "FirstName": "Tiana Angelina",
     "LastName": "Moser",
     "GenderAsString": "f",
-    "PersonIdCode": 2700,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/2700.jpg",
-    "PartyName": "Grünliberale Partei"
+    "PartyAbbreviation": "glp"
   },
   {
     "ID": 3898,
     "FirstName": "Yves",
     "LastName": "Nidegger",
     "GenderAsString": "m",
-    "PersonIdCode": 2701,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/2701.jpg",
-    "PartyName": "Schweizerische Volkspartei"
+    "PartyAbbreviation": "SVP"
   },
   {
     "ID": 3899,
     "FirstName": "Eric",
     "LastName": "Nussbaumer",
     "GenderAsString": "m",
-    "PersonIdCode": 2702,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/2702.jpg",
-    "PartyName": "Sozialdemokratische Partei der Schweiz"
+    "PartyAbbreviation": "SP"
   },
   {
     "ID": 3901,
     "FirstName": "Lukas",
     "LastName": "Reimann",
     "GenderAsString": "m",
-    "PersonIdCode": 2704,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/2704.jpg",
-    "PartyName": "Schweizerische Volkspartei"
+    "PartyAbbreviation": "SVP"
   },
   {
     "ID": 3910,
     "FirstName": "Erich",
     "LastName": "von Siebenthal",
     "GenderAsString": "m",
-    "PersonIdCode": 2713,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/2713.jpg",
-    "PartyName": "Schweizerische Volkspartei"
+    "PartyAbbreviation": "SVP"
   },
   {
     "ID": 3912,
     "FirstName": "Christian",
     "LastName": "Wasserfallen",
     "GenderAsString": "m",
-    "PersonIdCode": 2715,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/2715.jpg",
-    "PartyName": "FDP.Die Liberalen"
+    "PartyAbbreviation": "FDP-Liberale"
   },
   {
     "ID": 3923,
     "FirstName": "Ada",
     "LastName": "Marra",
     "GenderAsString": "f",
-    "PersonIdCode": 2726,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/2726.jpg",
-    "PartyName": "Sozialdemokratische Partei der Schweiz"
+    "PartyAbbreviation": "SP"
   },
   {
     "ID": 3999,
     "FirstName": "Katharina",
     "LastName": "Prelicz-Huber",
     "GenderAsString": "f",
-    "PersonIdCode": 2732,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/2732.jpg",
-    "PartyName": "Grüne Partei der Schweiz"
+    "PartyAbbreviation": "GPS"
   },
   {
     "ID": 4008,
     "FirstName": "Martin",
     "LastName": "Landolt",
     "GenderAsString": "m",
-    "PersonIdCode": 2735,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/2735.jpg",
-    "PartyName": "Bürgerlich-Demokratische Partei Schweiz"
+    "PartyAbbreviation": "BDP"
   },
   {
     "ID": 4025,
     "FirstName": "Roland Rino",
     "LastName": "Büchel",
     "GenderAsString": "m",
-    "PersonIdCode": 2740,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/2740.jpg",
-    "PartyName": "Schweizerische Volkspartei"
+    "PartyAbbreviation": "SVP"
   },
   {
     "ID": 4030,
     "FirstName": "Prisca",
     "LastName": "Birrer-Heimo",
     "GenderAsString": "f",
-    "PersonIdCode": 2743,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/2743.jpg",
-    "PartyName": "Sozialdemokratische Partei der Schweiz"
+    "PartyAbbreviation": "SP"
   },
   {
     "ID": 4032,
     "FirstName": "Beat",
     "LastName": "Jans",
     "GenderAsString": "m",
-    "PersonIdCode": 2745,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/2745.jpg",
-    "PartyName": "Sozialdemokratische Partei der Schweiz"
+    "PartyAbbreviation": "SP"
   },
   {
     "ID": 4036,
     "FirstName": "Marianne",
     "LastName": "Streiff-Feller",
     "GenderAsString": "f",
-    "PersonIdCode": 2747,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/2747.jpg",
-    "PartyName": "Evangelische Volkspartei der Schweiz"
+    "PartyAbbreviation": "EVP"
   },
   {
     "ID": 4040,
     "FirstName": "Elisabeth",
     "LastName": "Schneider-Schneiter",
     "GenderAsString": "f",
-    "PersonIdCode": 2748,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/2748.jpg",
-    "PartyName": "Christlichdemokratische Volkspartei der Schweiz"
+    "PartyAbbreviation": "CVP"
   },
   {
     "ID": 4046,
     "FirstName": "Lorenzo",
     "LastName": "Quadri",
     "GenderAsString": "m",
-    "PersonIdCode": 2752,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/2752.jpg",
-    "PartyName": "Lega dei Ticinesi"
+    "PartyAbbreviation": "Lega"
   },
   {
     "ID": 4049,
     "FirstName": "Matthias",
     "LastName": "Aebischer",
     "GenderAsString": "m",
-    "PersonIdCode": 2760,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/2760.jpg",
-    "PartyName": "Sozialdemokratische Partei der Schweiz"
+    "PartyAbbreviation": "SP"
   },
   {
     "ID": 4051,
     "FirstName": "Thomas",
     "LastName": "de Courten",
     "GenderAsString": "m",
-    "PersonIdCode": 2757,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/2757.jpg",
-    "PartyName": "Schweizerische Volkspartei"
+    "PartyAbbreviation": "SVP"
   },
   {
     "ID": 4052,
     "FirstName": "Markus",
     "LastName": "Ritter",
     "GenderAsString": "m",
-    "PersonIdCode": 2754,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/2754.jpg",
-    "PartyName": "Christlichdemokratische Volkspartei der Schweiz"
+    "PartyAbbreviation": "CVP"
   },
   {
     "ID": 4053,
     "FirstName": "Thomas",
     "LastName": "Aeschi",
     "GenderAsString": "m",
-    "PersonIdCode": 2758,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/2758.jpg",
-    "PartyName": "Schweizerische Volkspartei"
+    "PartyAbbreviation": "SVP"
   },
   {
     "ID": 4054,
     "FirstName": "Albert",
     "LastName": "Vitali",
     "GenderAsString": "m",
-    "PersonIdCode": 2761,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/2761.jpg",
-    "PartyName": "FDP.Die Liberalen"
+    "PartyAbbreviation": "FDP-Liberale"
   },
   {
     "ID": 4057,
     "FirstName": "Cédric",
     "LastName": "Wermuth",
     "GenderAsString": "m",
-    "PersonIdCode": 2759,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/2759.jpg",
-    "PartyName": "Sozialdemokratische Partei der Schweiz"
+    "PartyAbbreviation": "SP"
   },
   {
     "ID": 4058,
     "FirstName": "Jacqueline",
     "LastName": "Badran",
     "GenderAsString": "f",
-    "PersonIdCode": 2762,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/2762.jpg",
-    "PartyName": "Sozialdemokratische Partei der Schweiz"
+    "PartyAbbreviation": "SP"
   },
   {
     "ID": 4059,
     "FirstName": "Beat",
     "LastName": "Flach",
     "GenderAsString": "m",
-    "PersonIdCode": 2765,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/2765.jpg",
-    "PartyName": "Grünliberale Partei"
+    "PartyAbbreviation": "glp"
   },
   {
     "ID": 4060,
     "FirstName": "Daniela",
     "LastName": "Schneeberger",
     "GenderAsString": "f",
-    "PersonIdCode": 2766,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/2766.jpg",
-    "PartyName": "FDP.Die Liberalen"
+    "PartyAbbreviation": "FDP-Liberale"
   },
   {
     "ID": 4063,
     "FirstName": "Stefan",
     "LastName": "Müller-Altermatt",
     "GenderAsString": "m",
-    "PersonIdCode": 2771,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/2771.jpg",
-    "PartyName": "Christlichdemokratische Volkspartei der Schweiz"
+    "PartyAbbreviation": "CVP"
   },
   {
     "ID": 4065,
     "FirstName": "Nadja",
     "LastName": "Pieren",
     "GenderAsString": "f",
-    "PersonIdCode": 2781,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/2781.jpg",
-    "PartyName": "Schweizerische Volkspartei"
+    "PartyAbbreviation": "SVP"
   },
   {
     "ID": 4069,
     "FirstName": "Yvonne",
     "LastName": "Feri",
     "GenderAsString": "f",
-    "PersonIdCode": 2777,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/2777.jpg",
-    "PartyName": "Sozialdemokratische Partei der Schweiz"
+    "PartyAbbreviation": "SP"
   },
   {
     "ID": 4070,
     "FirstName": "Martin",
     "LastName": "Candinas",
     "GenderAsString": "m",
-    "PersonIdCode": 2770,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/2770.jpg",
-    "PartyName": "Christlichdemokratische Volkspartei der Schweiz"
+    "PartyAbbreviation": "CVP"
   },
   {
     "ID": 4072,
     "FirstName": "Fabio",
     "LastName": "Regazzi",
     "GenderAsString": "m",
-    "PersonIdCode": 2776,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/2776.jpg",
-    "PartyName": "Christlichdemokratische Volkspartei der Schweiz"
+    "PartyAbbreviation": "CVP"
   },
   {
     "ID": 4074,
     "FirstName": "Pierre-Alain",
     "LastName": "Fridez",
     "GenderAsString": "m",
-    "PersonIdCode": 2778,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/2778.jpg",
-    "PartyName": "Sozialdemokratische Partei der Schweiz"
+    "PartyAbbreviation": "SP"
   },
   {
     "ID": 4077,
     "FirstName": "Olivier",
     "LastName": "Feller",
     "GenderAsString": "m",
-    "PersonIdCode": 2789,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/2789.jpg",
-    "PartyName": "FDP.Die Liberalen"
+    "PartyAbbreviation": "FDP-Liberale"
   },
   {
     "ID": 4083,
     "FirstName": "Jürg",
     "LastName": "Grossen",
     "GenderAsString": "m",
-    "PersonIdCode": 2786,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/2786.jpg",
-    "PartyName": "Grünliberale Partei"
+    "PartyAbbreviation": "glp"
   },
   {
     "ID": 4087,
     "FirstName": "Jean-Paul",
     "LastName": "Gschwind",
     "GenderAsString": "m",
-    "PersonIdCode": 2798,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/2798.jpg",
-    "PartyName": "Christlichdemokratische Volkspartei der Schweiz"
+    "PartyAbbreviation": "CVP"
   },
   {
     "ID": 4089,
     "FirstName": "Roland",
     "LastName": "Fischer",
     "GenderAsString": "m",
-    "PersonIdCode": 2794,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/2794.jpg",
-    "PartyName": "Grünliberale Partei"
+    "PartyAbbreviation": "glp"
   },
   {
     "ID": 4090,
     "FirstName": "Céline",
     "LastName": "Amaudruz",
     "GenderAsString": "f",
-    "PersonIdCode": 2796,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/2796.jpg",
-    "PartyName": "Schweizerische Volkspartei"
+    "PartyAbbreviation": "SVP"
   },
   {
     "ID": 4091,
     "FirstName": "Mathias",
     "LastName": "Reynard",
     "GenderAsString": "m",
-    "PersonIdCode": 2795,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/2795.jpg",
-    "PartyName": "Sozialdemokratische Partei der Schweiz"
+    "PartyAbbreviation": "SP"
   },
   {
     "ID": 4093,
     "FirstName": "Balthasar",
     "LastName": "Glättli",
     "GenderAsString": "m",
-    "PersonIdCode": 3003,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3003.jpg",
-    "PartyName": "Grüne Partei der Schweiz"
+    "PartyAbbreviation": "GPS"
   },
   {
     "ID": 4094,
     "FirstName": "Lorenz",
     "LastName": "Hess",
     "GenderAsString": "m",
-    "PersonIdCode": 2799,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/2799.jpg",
-    "PartyName": "Bürgerlich-Demokratische Partei Schweiz"
+    "PartyAbbreviation": "BDP"
   },
   {
     "ID": 4095,
     "FirstName": "Regula",
     "LastName": "Rytz",
     "GenderAsString": "f",
-    "PersonIdCode": 3000,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3000.jpg",
-    "PartyName": "Grüne Partei der Schweiz"
+    "PartyAbbreviation": "GPS"
   },
   {
     "ID": 4096,
     "FirstName": "Alois",
     "LastName": "Gmür",
     "GenderAsString": "m",
-    "PersonIdCode": 3001,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3001.jpg",
-    "PartyName": "Christlichdemokratische Volkspartei der Schweiz"
+    "PartyAbbreviation": "CVP"
   },
   {
     "ID": 4097,
     "FirstName": "Leo",
     "LastName": "Müller",
     "GenderAsString": "m",
-    "PersonIdCode": 3012,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3012.jpg",
-    "PartyName": "Christlichdemokratische Volkspartei der Schweiz"
+    "PartyAbbreviation": "CVP"
   },
   {
     "ID": 4098,
     "FirstName": "Peter",
     "LastName": "Keller",
     "GenderAsString": "m",
-    "PersonIdCode": 3013,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3013.jpg",
-    "PartyName": "Schweizerische Volkspartei"
+    "PartyAbbreviation": "SVP"
   },
   {
     "ID": 4100,
     "FirstName": "Albert",
     "LastName": "Rösti",
     "GenderAsString": "m",
-    "PersonIdCode": 3010,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3010.jpg",
-    "PartyName": "Schweizerische Volkspartei"
+    "PartyAbbreviation": "SVP"
   },
   {
     "ID": 4101,
     "FirstName": "Christine",
     "LastName": "Bulliard-Marbach",
     "GenderAsString": "f",
-    "PersonIdCode": 3017,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3017.jpg",
-    "PartyName": "Christlichdemokratische Volkspartei der Schweiz"
+    "PartyAbbreviation": "CVP"
   },
   {
     "ID": 4102,
     "FirstName": "Kathrin",
     "LastName": "Bertschy",
     "GenderAsString": "f",
-    "PersonIdCode": 3016,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3016.jpg",
-    "PartyName": "Grünliberale Partei"
+    "PartyAbbreviation": "glp"
   },
   {
     "ID": 4108,
     "FirstName": "Isabelle",
     "LastName": "Chevalley",
     "GenderAsString": "f",
-    "PersonIdCode": 3604,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3604.jpg",
-    "PartyName": "Grünliberale Partei"
+    "PartyAbbreviation": "glp"
   },
   {
     "ID": 4109,
     "FirstName": "Valérie",
     "LastName": "Piller Carrard",
     "GenderAsString": "f",
-    "PersonIdCode": 3009,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3009.jpg",
-    "PartyName": "Sozialdemokratische Partei der Schweiz"
+    "PartyAbbreviation": "SP"
   },
   {
     "ID": 4116,
     "FirstName": "Petra",
     "LastName": "Gössi",
     "GenderAsString": "f",
-    "PersonIdCode": 3023,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3023.jpg",
-    "PartyName": "FDP.Die Liberalen"
+    "PartyAbbreviation": "FDP-Liberale"
   },
   {
     "ID": 4118,
     "FirstName": "Christian",
     "LastName": "Lohr",
     "GenderAsString": "m",
-    "PersonIdCode": 3024,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3024.jpg",
-    "PartyName": "Christlichdemokratische Volkspartei der Schweiz"
+    "PartyAbbreviation": "CVP"
   },
   {
     "ID": 4120,
     "FirstName": "Marco",
     "LastName": "Romano",
     "GenderAsString": "m",
-    "PersonIdCode": 3025,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3025.jpg",
-    "PartyName": "Christlichdemokratische Volkspartei der Schweiz"
+    "PartyAbbreviation": "CVP"
   },
   {
     "ID": 4121,
     "FirstName": "Barbara",
     "LastName": "Gysi",
     "GenderAsString": "f",
-    "PersonIdCode": 3026,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3026.jpg",
-    "PartyName": "Sozialdemokratische Partei der Schweiz"
+    "PartyAbbreviation": "SP"
   },
   {
     "ID": 4123,
     "FirstName": "Ursula",
     "LastName": "Schneider Schüttel",
     "GenderAsString": "f",
-    "PersonIdCode": 3028,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3028.jpg",
-    "PartyName": "Sozialdemokratische Partei der Schweiz"
+    "PartyAbbreviation": "SP"
   },
   {
     "ID": 4125,
     "FirstName": "Gregor",
     "LastName": "Rutz",
     "GenderAsString": "m",
-    "PersonIdCode": 3030,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3030.jpg",
-    "PartyName": "Schweizerische Volkspartei"
+    "PartyAbbreviation": "SVP"
   },
   {
     "ID": 4128,
     "FirstName": "Aline",
     "LastName": "Trede",
     "GenderAsString": "f",
-    "PersonIdCode": 3032,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3032.jpg",
-    "PartyName": "Grüne Partei der Schweiz"
+    "PartyAbbreviation": "GPS"
   },
   {
     "ID": 4129,
     "FirstName": "Verena",
     "LastName": "Herzog",
     "GenderAsString": "f",
-    "PersonIdCode": 3033,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3033.jpg",
-    "PartyName": "Schweizerische Volkspartei"
+    "PartyAbbreviation": "SVP"
   },
   {
     "ID": 4130,
     "FirstName": "Nadine",
     "LastName": "Masshardt",
     "GenderAsString": "f",
-    "PersonIdCode": 3034,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3034.jpg",
-    "PartyName": "Sozialdemokratische Partei der Schweiz"
+    "PartyAbbreviation": "SP"
   },
   {
     "ID": 4131,
     "FirstName": "Claudia",
     "LastName": "Friedl",
     "GenderAsString": "f",
-    "PersonIdCode": 3035,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3035.jpg",
-    "PartyName": "Sozialdemokratische Partei der Schweiz"
+    "PartyAbbreviation": "SP"
   },
   {
     "ID": 4134,
     "FirstName": "Martina",
     "LastName": "Munz",
     "GenderAsString": "f",
-    "PersonIdCode": 3036,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3036.jpg",
-    "PartyName": "Sozialdemokratische Partei der Schweiz"
+    "PartyAbbreviation": "SP"
   },
   {
     "ID": 4141,
     "FirstName": "Hans-Peter",
     "LastName": "Portmann",
     "GenderAsString": "m",
-    "PersonIdCode": 3043,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3043.jpg",
-    "PartyName": "FDP.Die Liberalen"
+    "PartyAbbreviation": "FDP-Liberale"
   },
   {
     "ID": 4142,
     "FirstName": "Beat",
     "LastName": "Walti",
     "GenderAsString": "m",
-    "PersonIdCode": 3044,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3044.jpg",
-    "PartyName": "FDP.Die Liberalen"
+    "PartyAbbreviation": "FDP-Liberale"
   },
   {
     "ID": 4144,
     "FirstName": "Thomas",
     "LastName": "Matter",
     "GenderAsString": "m",
-    "PersonIdCode": 3046,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3046.jpg",
-    "PartyName": "Schweizerische Volkspartei"
+    "PartyAbbreviation": "SVP"
   },
   {
     "ID": 4146,
     "FirstName": "Heinz",
     "LastName": "Siegenthaler",
     "GenderAsString": "m",
-    "PersonIdCode": 3048,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3048.jpg",
-    "PartyName": "Bürgerlich-Demokratische Partei Schweiz"
+    "PartyAbbreviation": "BDP"
   },
   {
     "ID": 4154,
     "FirstName": "Jean-Luc",
     "LastName": "Addor",
     "GenderAsString": "m",
-    "PersonIdCode": 3055,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3055.jpg",
-    "PartyName": "Schweizerische Volkspartei"
+    "PartyAbbreviation": "SVP"
   },
   {
     "ID": 4156,
     "FirstName": "Michaël",
     "LastName": "Buffat",
     "GenderAsString": "m",
-    "PersonIdCode": 3062,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3062.jpg",
-    "PartyName": "Schweizerische Volkspartei"
+    "PartyAbbreviation": "SVP"
   },
   {
     "ID": 4158,
     "FirstName": "Thomas",
     "LastName": "Burgherr",
     "GenderAsString": "m",
-    "PersonIdCode": 3064,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3064.jpg",
-    "PartyName": "Schweizerische Volkspartei"
+    "PartyAbbreviation": "SVP"
   },
   {
     "ID": 4160,
     "FirstName": "Marcel",
     "LastName": "Dettling",
     "GenderAsString": "m",
-    "PersonIdCode": 3069,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3069.jpg",
-    "PartyName": "Schweizerische Volkspartei"
+    "PartyAbbreviation": "SVP"
   },
   {
     "ID": 4161,
     "FirstName": "Andreas",
     "LastName": "Glarner",
     "GenderAsString": "m",
-    "PersonIdCode": 3074,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3074.jpg",
-    "PartyName": "Schweizerische Volkspartei"
+    "PartyAbbreviation": "SVP"
   },
   {
     "ID": 4162,
     "FirstName": "Franz",
     "LastName": "Grüter",
     "GenderAsString": "m",
-    "PersonIdCode": 3076,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3076.jpg",
-    "PartyName": "Schweizerische Volkspartei"
+    "PartyAbbreviation": "SVP"
   },
   {
     "ID": 4163,
     "FirstName": "Erich",
     "LastName": "Hess",
     "GenderAsString": "m",
-    "PersonIdCode": 3078,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3078.jpg",
-    "PartyName": "Schweizerische Volkspartei"
+    "PartyAbbreviation": "SVP"
   },
   {
     "ID": 4164,
     "FirstName": "Christian",
     "LastName": "Imark",
     "GenderAsString": "m",
-    "PersonIdCode": 3080,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3080.jpg",
-    "PartyName": "Schweizerische Volkspartei"
+    "PartyAbbreviation": "SVP"
   },
   {
     "ID": 4166,
     "FirstName": "Roger",
     "LastName": "Köppel",
     "GenderAsString": "m",
-    "PersonIdCode": 3082,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3082.jpg",
-    "PartyName": "Schweizerische Volkspartei"
+    "PartyAbbreviation": "SVP"
   },
   {
     "ID": 4167,
     "FirstName": "Magdalena",
     "LastName": "Martullo-Blocher",
     "GenderAsString": "f",
-    "PersonIdCode": 3085,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3085.jpg",
-    "PartyName": "Schweizerische Volkspartei"
+    "PartyAbbreviation": "SVP"
   },
   {
     "ID": 4168,
     "FirstName": "Jacques",
     "LastName": "Nicolet",
     "GenderAsString": "m",
-    "PersonIdCode": 3089,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3089.jpg",
-    "PartyName": "Schweizerische Volkspartei"
+    "PartyAbbreviation": "SVP"
   },
   {
     "ID": 4169,
     "FirstName": "Pierre-André",
     "LastName": "Page",
     "GenderAsString": "m",
-    "PersonIdCode": 3090,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3090.jpg",
-    "PartyName": "Schweizerische Volkspartei"
+    "PartyAbbreviation": "SVP"
   },
   {
     "ID": 4170,
     "FirstName": "Franz",
     "LastName": "Ruppen",
     "GenderAsString": "m",
-    "PersonIdCode": 3091,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3091.jpg",
-    "PartyName": "Schweizerische Volkspartei"
+    "PartyAbbreviation": "SVP"
   },
   {
     "ID": 4173,
     "FirstName": "Sandra",
     "LastName": "Sollberger",
     "GenderAsString": "f",
-    "PersonIdCode": 3095,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3095.jpg",
-    "PartyName": "Schweizerische Volkspartei"
+    "PartyAbbreviation": "SVP"
   },
   {
     "ID": 4174,
     "FirstName": "Barbara",
     "LastName": "Steinemann",
     "GenderAsString": "f",
-    "PersonIdCode": 3096,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3096.jpg",
-    "PartyName": "Schweizerische Volkspartei"
+    "PartyAbbreviation": "SVP"
   },
   {
     "ID": 4175,
     "FirstName": "Mauro",
     "LastName": "Tuena",
     "GenderAsString": "m",
-    "PersonIdCode": 3097,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3097.jpg",
-    "PartyName": "Schweizerische Volkspartei"
+    "PartyAbbreviation": "SVP"
   },
   {
     "ID": 4176,
     "FirstName": "Hans-Ueli",
     "LastName": "Vogt",
     "GenderAsString": "m",
-    "PersonIdCode": 3098,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3098.jpg",
-    "PartyName": "Schweizerische Volkspartei"
+    "PartyAbbreviation": "SVP"
   },
   {
     "ID": 4177,
     "FirstName": "Bruno",
     "LastName": "Walliser",
     "GenderAsString": "m",
-    "PersonIdCode": 3099,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3099.jpg",
-    "PartyName": "Schweizerische Volkspartei"
+    "PartyAbbreviation": "SVP"
   },
   {
     "ID": 4179,
     "FirstName": "David",
     "LastName": "Zuberbühler",
     "GenderAsString": "m",
-    "PersonIdCode": 3102,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3102.jpg",
-    "PartyName": "Schweizerische Volkspartei"
+    "PartyAbbreviation": "SVP"
   },
   {
     "ID": 4184,
     "FirstName": "Sibel",
     "LastName": "Arslan",
     "GenderAsString": "f",
-    "PersonIdCode": 3058,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3058.jpg",
-    "PartyName": "Grüne (Basels starke Alternative)"
+    "PartyAbbreviation": "BastA"
   },
   {
     "ID": 4188,
     "FirstName": "Frédéric",
     "LastName": "Borloz",
     "GenderAsString": "m",
-    "PersonIdCode": 3061,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3061.jpg",
-    "PartyName": "FDP.Die Liberalen"
+    "PartyAbbreviation": "FDP-Liberale"
   },
   {
     "ID": 4190,
     "FirstName": "Marcel",
     "LastName": "Dobler",
     "GenderAsString": "m",
-    "PersonIdCode": 3070,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3070.jpg",
-    "PartyName": "FDP.Die Liberalen"
+    "PartyAbbreviation": "FDP-Liberale"
   },
   {
     "ID": 4193,
     "FirstName": "Philippe",
     "LastName": "Nantermod",
     "GenderAsString": "m",
-    "PersonIdCode": 3088,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3088.jpg",
-    "PartyName": "FDP.Die Liberalen"
+    "PartyAbbreviation": "FDP-Liberale"
   },
   {
     "ID": 4194,
     "FirstName": "Laurent",
     "LastName": "Wehrli",
     "GenderAsString": "m",
-    "PersonIdCode": 3100,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3100.jpg",
-    "PartyName": "FDP.Die Liberalen"
+    "PartyAbbreviation": "FDP-Liberale"
   },
   {
     "ID": 4195,
     "FirstName": "Laurence",
     "LastName": "Fehlmann Rielle",
     "GenderAsString": "f",
-    "PersonIdCode": 3071,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3071.jpg",
-    "PartyName": "Sozialdemokratische Partei der Schweiz"
+    "PartyAbbreviation": "SP"
   },
   {
     "ID": 4197,
     "FirstName": "Min Li",
     "LastName": "Marti",
     "GenderAsString": "f",
-    "PersonIdCode": 3084,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3084.jpg",
-    "PartyName": "Sozialdemokratische Partei der Schweiz"
+    "PartyAbbreviation": "SP"
   },
   {
     "ID": 4198,
     "FirstName": "Mattea",
     "LastName": "Meyer",
     "GenderAsString": "f",
-    "PersonIdCode": 3087,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3087.jpg",
-    "PartyName": "Sozialdemokratische Partei der Schweiz"
+    "PartyAbbreviation": "SP"
   },
   {
     "ID": 4199,
     "FirstName": "Priska",
     "LastName": "Seiler Graf",
     "GenderAsString": "f",
-    "PersonIdCode": 3094,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3094.jpg",
-    "PartyName": "Sozialdemokratische Partei der Schweiz"
+    "PartyAbbreviation": "SP"
   },
   {
     "ID": 4201,
     "FirstName": "Denis",
     "LastName": "de la Reussille",
     "GenderAsString": "m",
-    "PersonIdCode": 3068,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3068.jpg",
-    "PartyName": "Partei der Arbeit der Schweiz"
+    "PartyAbbreviation": "PdA"
   },
   {
     "ID": 4202,
     "FirstName": "Regine",
     "LastName": "Sauter",
     "GenderAsString": "f",
-    "PersonIdCode": 3103,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3103.jpg",
-    "PartyName": "FDP.Die Liberalen"
+    "PartyAbbreviation": "FDP-Liberale"
   },
   {
     "ID": 4203,
     "FirstName": "Angelo",
     "LastName": "Barrile",
     "GenderAsString": "m",
-    "PersonIdCode": 3104,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3104.jpg",
-    "PartyName": "Sozialdemokratische Partei der Schweiz"
+    "PartyAbbreviation": "SP"
   },
   {
     "ID": 4208,
     "FirstName": "Matthias Samuel",
     "LastName": "Jauslin",
     "GenderAsString": "m",
-    "PersonIdCode": 3109,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3109.jpg",
-    "PartyName": "FDP.Die Liberalen"
+    "PartyAbbreviation": "FDP-Liberale"
   },
   {
     "ID": 4213,
     "FirstName": "Samuel",
     "LastName": "Bendahan",
     "GenderAsString": "m",
-    "PersonIdCode": 3114,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3114.jpg",
-    "PartyName": "Sozialdemokratische Partei der Schweiz"
+    "PartyAbbreviation": "SP"
   },
   {
     "ID": 4214,
     "FirstName": "Niklaus-Samuel",
     "LastName": "Gugger",
     "GenderAsString": "m",
-    "PersonIdCode": 3115,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3115.jpg",
-    "PartyName": "Evangelische Volkspartei der Schweiz"
+    "PartyAbbreviation": "EVP"
   },
   {
     "ID": 4216,
     "FirstName": "Diana",
     "LastName": "Gutjahr",
     "GenderAsString": "f",
-    "PersonIdCode": 3117,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3117.jpg",
-    "PartyName": "Schweizerische Volkspartei"
+    "PartyAbbreviation": "SVP"
   },
   {
     "ID": 4217,
     "FirstName": "Rocco",
     "LastName": "Cattaneo",
     "GenderAsString": "m",
-    "PersonIdCode": 3118,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3118.jpg",
-    "PartyName": "FDP.Die Liberalen"
+    "PartyAbbreviation": "FDP-Liberale"
   },
   {
     "ID": 4218,
     "FirstName": "Irène",
     "LastName": "Kälin",
     "GenderAsString": "f",
-    "PersonIdCode": 3119,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3119.jpg",
-    "PartyName": "Grüne Partei der Schweiz"
+    "PartyAbbreviation": "GPS"
   },
   {
     "ID": 4219,
     "FirstName": "Brigitte",
     "LastName": "Crottaz",
     "GenderAsString": "f",
-    "PersonIdCode": 3120,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3120.jpg",
-    "PartyName": "Sozialdemokratische Partei der Schweiz"
+    "PartyAbbreviation": "SP"
   },
   {
     "ID": 4220,
     "FirstName": "Benjamin",
     "LastName": "Roduit",
     "GenderAsString": "m",
-    "PersonIdCode": 3121,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3121.jpg",
-    "PartyName": "Christlichdemokratische Volkspartei der Schweiz"
+    "PartyAbbreviation": "CVP"
   },
   {
     "ID": 4221,
     "FirstName": "Michael",
     "LastName": "Töngi",
     "GenderAsString": "m",
-    "PersonIdCode": 3122,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3122.jpg",
-    "PartyName": "Grüne Partei der Schweiz"
+    "PartyAbbreviation": "GPS"
   },
   {
     "ID": 4222,
     "FirstName": "Nicolo",
     "LastName": "Paganini",
     "GenderAsString": "m",
-    "PersonIdCode": 3123,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3123.jpg",
-    "PartyName": "Christlichdemokratische Volkspartei der Schweiz"
+    "PartyAbbreviation": "CVP"
   },
   {
     "ID": 4223,
     "FirstName": "Fabian",
     "LastName": "Molina",
     "GenderAsString": "m",
-    "PersonIdCode": 3124,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3124.jpg",
-    "PartyName": "Sozialdemokratische Partei der Schweiz"
+    "PartyAbbreviation": "SP"
   },
   {
     "ID": 4224,
     "FirstName": "Flavia",
     "LastName": "Wasserfallen",
     "GenderAsString": "f",
-    "PersonIdCode": 3125,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3125.jpg",
-    "PartyName": "Sozialdemokratische Partei der Schweiz"
+    "PartyAbbreviation": "SP"
   },
   {
     "ID": 4225,
     "FirstName": "Philipp",
     "LastName": "Kutter",
     "GenderAsString": "m",
-    "PersonIdCode": 3126,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3126.jpg",
-    "PartyName": "Christlichdemokratische Volkspartei der Schweiz"
+    "PartyAbbreviation": "CVP"
   },
   {
     "ID": 4228,
     "FirstName": "Samira",
     "LastName": "Marti",
     "GenderAsString": "f",
-    "PersonIdCode": 3129,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3129.jpg",
-    "PartyName": "Sozialdemokratische Partei der Schweiz"
+    "PartyAbbreviation": "SP"
   },
   {
     "ID": 4229,
     "FirstName": "Mike",
     "LastName": "Egger",
     "GenderAsString": "m",
-    "PersonIdCode": 3130,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3130.jpg",
-    "PartyName": "Schweizerische Volkspartei"
+    "PartyAbbreviation": "SVP"
   },
   {
     "ID": 4230,
     "FirstName": "Philipp Matthias",
     "LastName": "Bregy",
     "GenderAsString": "m",
-    "PersonIdCode": 3131,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3131.jpg",
-    "PartyName": "Christlichdemokratische Volkspartei Oberwallis"
+    "PartyAbbreviation": "CVPO"
   },
   {
     "ID": 4234,
     "FirstName": "Therese",
     "LastName": "Schläpfer",
     "GenderAsString": "f",
-    "PersonIdCode": 3135,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3135.jpg",
-    "PartyName": "Schweizerische Volkspartei"
+    "PartyAbbreviation": "SVP"
   },
   {
     "ID": 4236,
     "FirstName": "Martin",
     "LastName": "Haab",
     "GenderAsString": "m",
-    "PersonIdCode": 3134,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3134.jpg",
-    "PartyName": "Schweizerische Volkspartei"
+    "PartyAbbreviation": "SVP"
   },
   {
     "ID": 4245,
     "FirstName": "Gerhard",
     "LastName": "Andrey",
     "GenderAsString": "m",
-    "PersonIdCode": 3137,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3137.jpg",
-    "PartyName": "Grüne Partei der Schweiz"
+    "PartyAbbreviation": "GPS"
   },
   {
     "ID": 4246,
     "FirstName": "Christine",
     "LastName": "Badertscher",
     "GenderAsString": "f",
-    "PersonIdCode": 3138,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3138.jpg",
-    "PartyName": "Grüne Partei der Schweiz"
+    "PartyAbbreviation": "GPS"
   },
   {
     "ID": 4247,
     "FirstName": "Kilian",
     "LastName": "Baumann",
     "GenderAsString": "m",
-    "PersonIdCode": 3139,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3139.jpg",
-    "PartyName": "Grüne Partei der Schweiz"
+    "PartyAbbreviation": "GPS"
   },
   {
     "ID": 4248,
     "FirstName": "Judith",
     "LastName": "Bellaïche",
     "GenderAsString": "f",
-    "PersonIdCode": 3140,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3140.jpg",
-    "PartyName": "Grünliberale Partei"
+    "PartyAbbreviation": "glp"
   },
   {
     "ID": 4249,
     "FirstName": "Marianne",
     "LastName": "Binder-Keller",
     "GenderAsString": "f",
-    "PersonIdCode": 3141,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3141.jpg",
-    "PartyName": "Christlichdemokratische Volkspartei der Schweiz"
+    "PartyAbbreviation": "CVP"
   },
   {
     "ID": 4250,
     "FirstName": "Martina",
     "LastName": "Bircher",
     "GenderAsString": "f",
-    "PersonIdCode": 3142,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3142.jpg",
-    "PartyName": "Schweizerische Volkspartei"
+    "PartyAbbreviation": "SVP"
   },
   {
     "ID": 4251,
     "FirstName": "Thomas",
     "LastName": "Brunner",
     "GenderAsString": "m",
-    "PersonIdCode": 3143,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3143.jpg",
-    "PartyName": "Grünliberale Partei"
+    "PartyAbbreviation": "glp"
   },
   {
     "ID": 4252,
     "FirstName": "Katja",
     "LastName": "Christ",
     "GenderAsString": "f",
-    "PersonIdCode": 3144,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3144.jpg",
-    "PartyName": "Grünliberale Partei"
+    "PartyAbbreviation": "glp"
   },
   {
     "ID": 4253,
     "FirstName": "Christophe",
     "LastName": "Clivaz",
     "GenderAsString": "m",
-    "PersonIdCode": 3145,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3145.jpg",
-    "PartyName": "Grüne Partei der Schweiz"
+    "PartyAbbreviation": "GPS"
   },
   {
     "ID": 4254,
     "FirstName": "Damien",
     "LastName": "Cottier",
     "GenderAsString": "m",
-    "PersonIdCode": 3146,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3146.jpg",
-    "PartyName": "FDP.Die Liberalen"
+    "PartyAbbreviation": "FDP-Liberale"
   },
   {
     "ID": 4255,
     "FirstName": "Christian",
     "LastName": "Dandrès",
     "GenderAsString": "m",
-    "PersonIdCode": 3147,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3147.jpg",
-    "PartyName": "Sozialdemokratische Partei der Schweiz"
+    "PartyAbbreviation": "SP"
   },
   {
     "ID": 4256,
     "FirstName": "Simone",
     "LastName": "de Montmollin",
     "GenderAsString": "f",
-    "PersonIdCode": 3148,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3148.jpg",
-    "PartyName": "FDP.Die Liberalen"
+    "PartyAbbreviation": "FDP-Liberale"
   },
   {
     "ID": 4257,
     "FirstName": "Jacqueline",
     "LastName": "de Quattro",
     "GenderAsString": "f",
-    "PersonIdCode": 3149,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3149.jpg",
-    "PartyName": "FDP.Die Liberalen"
+    "PartyAbbreviation": "FDP-Liberale"
   },
   {
     "ID": 4257,
     "FirstName": "Jacqueline",
     "LastName": "de Quattro",
     "GenderAsString": "f",
-    "PersonIdCode": 3149,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3149.jpg",
-    "PartyName": "FDP.Die Liberalen"
+    "PartyAbbreviation": "FDP-Liberale"
   },
   {
     "ID": 4258,
     "FirstName": "Kurt",
     "LastName": "Egger",
     "GenderAsString": "m",
-    "PersonIdCode": 3150,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3150.jpg",
-    "PartyName": "Grüne Partei der Schweiz"
+    "PartyAbbreviation": "GPS"
   },
   {
     "ID": 4259,
     "FirstName": "Alex",
     "LastName": "Farinelli",
     "GenderAsString": "m",
-    "PersonIdCode": 3151,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3151.jpg",
-    "PartyName": "FDP.Die Liberalen"
+    "PartyAbbreviation": "FDP-Liberale"
   },
   {
     "ID": 4260,
     "FirstName": "Fabien",
     "LastName": "Fivaz",
     "GenderAsString": "m",
-    "PersonIdCode": 3152,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3152.jpg",
-    "PartyName": "Grüne Partei der Schweiz"
+    "PartyAbbreviation": "GPS"
   },
   {
     "ID": 4261,
     "FirstName": "Esther",
     "LastName": "Friedli",
     "GenderAsString": "f",
-    "PersonIdCode": 3153,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3153.jpg",
-    "PartyName": "Schweizerische Volkspartei"
+    "PartyAbbreviation": "SVP"
   },
   {
     "ID": 4262,
     "FirstName": "Tamara",
     "LastName": "Funiciello",
     "GenderAsString": "f",
-    "PersonIdCode": 3154,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3154.jpg",
-    "PartyName": "Sozialdemokratische Partei der Schweiz"
+    "PartyAbbreviation": "SP"
   },
   {
     "ID": 4262,
     "FirstName": "Tamara",
     "LastName": "Funiciello",
     "GenderAsString": "f",
-    "PersonIdCode": 3154,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3154.jpg",
-    "PartyName": "Sozialdemokratische Partei der Schweiz"
+    "PartyAbbreviation": "SP"
   },
   {
     "ID": 4263,
     "FirstName": "Andreas",
     "LastName": "Gafner",
     "GenderAsString": "m",
-    "PersonIdCode": 3155,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3155.jpg",
-    "PartyName": "Eidgenössisch-Demokratische Union"
+    "PartyAbbreviation": "EDU"
   },
   {
     "ID": 4264,
     "FirstName": "Jean-Pierre",
     "LastName": "Gallati",
     "GenderAsString": "m",
-    "PersonIdCode": 3156,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3156.jpg",
-    "PartyName": "Schweizerische Volkspartei"
+    "PartyAbbreviation": "SVP"
   },
   {
     "ID": 4265,
     "FirstName": "Anna",
     "LastName": "Giacometti",
     "GenderAsString": "f",
-    "PersonIdCode": 3157,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3157.jpg",
-    "PartyName": "FDP.Die Liberalen"
+    "PartyAbbreviation": "FDP-Liberale"
   },
   {
     "ID": 4266,
     "FirstName": "Benjamin",
     "LastName": "Giezendanner",
     "GenderAsString": "m",
-    "PersonIdCode": 3158,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3158.jpg",
-    "PartyName": "Schweizerische Volkspartei"
+    "PartyAbbreviation": "SVP"
   },
   {
     "ID": 4267,
     "FirstName": "Corina",
     "LastName": "Gredig",
     "GenderAsString": "f",
-    "PersonIdCode": 3159,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3159.jpg",
-    "PartyName": "Grünliberale Partei"
+    "PartyAbbreviation": "glp"
   },
   {
     "ID": 4268,
     "FirstName": "Greta",
     "LastName": "Gysin",
     "GenderAsString": "f",
-    "PersonIdCode": 3160,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3160.jpg",
-    "PartyName": "Grüne Partei der Schweiz"
+    "PartyAbbreviation": "GPS"
   },
   {
     "ID": 4270,
     "FirstName": "Baptiste",
     "LastName": "Hurni",
     "GenderAsString": "m",
-    "PersonIdCode": 3162,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3162.jpg",
-    "PartyName": "Sozialdemokratische Partei der Schweiz"
+    "PartyAbbreviation": "SP"
   },
   {
     "ID": 4271,
     "FirstName": "Sidney",
     "LastName": "Kamerzin",
     "GenderAsString": "m",
-    "PersonIdCode": 3163,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3163.jpg",
-    "PartyName": "Christlichdemokratische Volkspartei der Schweiz"
+    "PartyAbbreviation": "CVP"
   },
   {
     "ID": 4272,
     "FirstName": "Delphine",
     "LastName": "Klopfenstein Broggini",
     "GenderAsString": "f",
-    "PersonIdCode": 3164,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3164.jpg",
-    "PartyName": "Grüne Partei der Schweiz"
+    "PartyAbbreviation": "GPS"
   },
   {
     "ID": 4273,
     "FirstName": "Sandra",
     "LastName": "Locher Benguerel",
     "GenderAsString": "f",
-    "PersonIdCode": 3165,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3165.jpg",
-    "PartyName": "Sozialdemokratische Partei der Schweiz"
+    "PartyAbbreviation": "SP"
   },
   {
     "ID": 4274,
     "FirstName": "Jörg",
     "LastName": "Mäder",
     "GenderAsString": "m",
-    "PersonIdCode": 3166,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3166.jpg",
-    "PartyName": "Grünliberale Partei"
+    "PartyAbbreviation": "glp"
   },
   {
     "ID": 4275,
     "FirstName": "Vincent",
     "LastName": "Maitre",
     "GenderAsString": "m",
-    "PersonIdCode": 3167,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3167.jpg",
-    "PartyName": "Christlichdemokratische Volkspartei der Schweiz"
+    "PartyAbbreviation": "CVP"
   },
   {
     "ID": 4276,
     "FirstName": "Michel",
     "LastName": "Matter",
     "GenderAsString": "m",
-    "PersonIdCode": 3168,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3168.jpg",
-    "PartyName": "Grünliberale Partei"
+    "PartyAbbreviation": "glp"
   },
   {
     "ID": 4277,
     "FirstName": "Melanie",
     "LastName": "Mettler",
     "GenderAsString": "f",
-    "PersonIdCode": 3169,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3169.jpg",
-    "PartyName": "Grünliberale Partei"
+    "PartyAbbreviation": "glp"
   },
   {
     "ID": 4278,
     "FirstName": "Sophie",
     "LastName": "Michaud Gigon",
     "GenderAsString": "f",
-    "PersonIdCode": 3170,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3170.jpg",
-    "PartyName": "Grüne Partei der Schweiz"
+    "PartyAbbreviation": "GPS"
   },
   {
     "ID": 4279,
     "FirstName": "François",
     "LastName": "Pointet",
     "GenderAsString": "m",
-    "PersonIdCode": 3171,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3171.jpg",
-    "PartyName": "Grünliberale Partei"
+    "PartyAbbreviation": "glp"
   },
   {
     "ID": 4280,
     "FirstName": "Léonore",
     "LastName": "Porchet",
     "GenderAsString": "f",
-    "PersonIdCode": 3172,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3172.jpg",
-    "PartyName": "Grüne Partei der Schweiz"
+    "PartyAbbreviation": "GPS"
   },
   {
     "ID": 4281,
     "FirstName": "Jon",
     "LastName": "Pult",
     "GenderAsString": "m",
-    "PersonIdCode": 3173,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3173.jpg",
-    "PartyName": "Sozialdemokratische Partei der Schweiz"
+    "PartyAbbreviation": "SP"
   },
   {
     "ID": 4282,
     "FirstName": "Thomas",
     "LastName": "Rechsteiner",
     "GenderAsString": "m",
-    "PersonIdCode": 3174,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3174.jpg",
-    "PartyName": "Christlichdemokratische Volkspartei der Schweiz"
+    "PartyAbbreviation": "CVP"
   },
   {
     "ID": 4283,
     "FirstName": "Franziska",
     "LastName": "Roth",
     "GenderAsString": "f",
-    "PersonIdCode": 3175,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3175.jpg",
-    "PartyName": "Sozialdemokratische Partei der Schweiz"
+    "PartyAbbreviation": "SP"
   },
   {
     "ID": 4284,
     "FirstName": "Marie-France",
     "LastName": "Roth Pasquier",
     "GenderAsString": "f",
-    "PersonIdCode": 3176,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3176.jpg",
-    "PartyName": "Christlichdemokratische Volkspartei der Schweiz"
+    "PartyAbbreviation": "CVP"
   },
   {
     "ID": 4285,
     "FirstName": "Monika",
     "LastName": "Rüegger",
     "GenderAsString": "f",
-    "PersonIdCode": 3177,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3177.jpg",
-    "PartyName": "Schweizerische Volkspartei"
+    "PartyAbbreviation": "SVP"
   },
   {
     "ID": 4286,
     "FirstName": "Franziska",
     "LastName": "Ryser",
     "GenderAsString": "f",
-    "PersonIdCode": 3178,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3178.jpg",
-    "PartyName": "Grüne Partei der Schweiz"
+    "PartyAbbreviation": "GPS"
   },
   {
     "ID": 4287,
     "FirstName": "Barbara",
     "LastName": "Schaffner",
     "GenderAsString": "f",
-    "PersonIdCode": 3179,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3179.jpg",
-    "PartyName": "Grünliberale Partei"
+    "PartyAbbreviation": "glp"
   },
   {
     "ID": 4288,
     "FirstName": "Marionna",
     "LastName": "Schlatter",
     "GenderAsString": "f",
-    "PersonIdCode": 3180,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3180.jpg",
-    "PartyName": "Grüne Partei der Schweiz"
+    "PartyAbbreviation": "GPS"
   },
   {
     "ID": 4288,
     "FirstName": "Marionna",
     "LastName": "Schlatter",
     "GenderAsString": "f",
-    "PersonIdCode": 3180,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3180.jpg",
-    "PartyName": "Grüne Partei der Schweiz"
+    "PartyAbbreviation": "GPS"
   },
   {
     "ID": 4289,
     "FirstName": "Meret",
     "LastName": "Schneider",
     "GenderAsString": "f",
-    "PersonIdCode": 3181,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3181.jpg",
-    "PartyName": "Grüne Partei der Schweiz"
+    "PartyAbbreviation": "GPS"
   },
   {
     "ID": 4290,
     "FirstName": "Andri",
     "LastName": "Silberschmidt",
     "GenderAsString": "m",
-    "PersonIdCode": 3182,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3182.jpg",
-    "PartyName": "FDP.Die Liberalen"
+    "PartyAbbreviation": "FDP-Liberale"
   },
   {
     "ID": 4292,
     "FirstName": "Simon",
     "LastName": "Stadler",
     "GenderAsString": "m",
-    "PersonIdCode": 3184,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3184.jpg",
-    "PartyName": "Christlichdemokratische Volkspartei der Schweiz"
+    "PartyAbbreviation": "CVP"
   },
   {
     "ID": 4293,
     "FirstName": "Manuel",
     "LastName": "Strupler",
     "GenderAsString": "m",
-    "PersonIdCode": 3185,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3185.jpg",
-    "PartyName": "Schweizerische Volkspartei"
+    "PartyAbbreviation": "SVP"
   },
   {
     "ID": 4294,
     "FirstName": "Lilian",
     "LastName": "Studer",
     "GenderAsString": "f",
-    "PersonIdCode": 3186,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3186.jpg",
-    "PartyName": "Evangelische Volkspartei der Schweiz"
+    "PartyAbbreviation": "EVP"
   },
   {
     "ID": 4295,
     "FirstName": "Gabriela",
     "LastName": "Suter",
     "GenderAsString": "f",
-    "PersonIdCode": 3187,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3187.jpg",
-    "PartyName": "Sozialdemokratische Partei der Schweiz"
+    "PartyAbbreviation": "SP"
   },
   {
     "ID": 4296,
     "FirstName": "Susanne",
     "LastName": "Vincenz-Stauffacher",
     "GenderAsString": "f",
-    "PersonIdCode": 3188,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3188.jpg",
-    "PartyName": "FDP.Die Liberalen"
+    "PartyAbbreviation": "FDP-Liberale"
   },
   {
     "ID": 4297,
     "FirstName": "Nicolas",
     "LastName": "Walder",
     "GenderAsString": "m",
-    "PersonIdCode": 3189,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3189.jpg",
-    "PartyName": "Grüne Partei der Schweiz"
+    "PartyAbbreviation": "GPS"
   },
   {
     "ID": 4298,
     "FirstName": "Manuela",
     "LastName": "Weichelt-Picard",
     "GenderAsString": "f",
-    "PersonIdCode": 3190,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3190.jpg",
-    "PartyName": "Alternative-die Grünen Kanton Zug"
+    "PartyAbbreviation": "Al"
   },
   {
     "ID": 4299,
     "FirstName": "Felix",
     "LastName": "Wettstein",
     "GenderAsString": "m",
-    "PersonIdCode": 3191,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3191.jpg",
-    "PartyName": "Grüne Partei der Schweiz"
+    "PartyAbbreviation": "GPS"
   },
   {
     "ID": 4300,
     "FirstName": "Céline",
     "LastName": "Widmer",
     "GenderAsString": "f",
-    "PersonIdCode": 3192,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3192.jpg",
-    "PartyName": "Sozialdemokratische Partei der Schweiz"
+    "PartyAbbreviation": "SP"
   },
   {
     "ID": 4301,
     "FirstName": "Stefania",
     "LastName": "Prezioso Batou",
     "GenderAsString": "f",
-    "PersonIdCode": 3161,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3161.jpg",
-    "PartyName": "Ensemble à Gauche/solodaritéS"
+    "PartyAbbreviation": "EGsolS"
   },
   {
     "ID": 4304,
     "FirstName": "Mustafa",
     "LastName": "Atici",
     "GenderAsString": "m",
-    "PersonIdCode": 3201,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3201.jpg",
-    "PartyName": "Sozialdemokratische Partei der Schweiz"
+    "PartyAbbreviation": "SP"
   },
   {
     "ID": 4305,
     "FirstName": "Priska",
     "LastName": "Wismer-Felder",
     "GenderAsString": "f",
-    "PersonIdCode": 3202,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3202.jpg",
-    "PartyName": "Christlichdemokratische Volkspartei der Schweiz"
+    "PartyAbbreviation": "CVP"
   },
   {
     "ID": 4307,
     "FirstName": "Valentine",
     "LastName": "Python",
     "GenderAsString": "f",
-    "PersonIdCode": 3203,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3203.jpg",
-    "PartyName": "Grüne Partei der Schweiz"
+    "PartyAbbreviation": "GPS"
   },
   {
     "ID": 4308,
     "FirstName": "Isabelle",
     "LastName": "Pasquier-Eichenberger",
     "GenderAsString": "f",
-    "PersonIdCode": 3204,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3204.jpg",
-    "PartyName": "Grüne Partei der Schweiz"
+    "PartyAbbreviation": "GPS"
   },
   {
     "ID": 4310,
     "FirstName": "Lars",
     "LastName": "Guggisberg",
     "GenderAsString": "m",
-    "PersonIdCode": 3206,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3206.jpg",
-    "PartyName": "Schweizerische Volkspartei"
+    "PartyAbbreviation": "SVP"
   },
   {
     "ID": 4311,
     "FirstName": "Piero",
     "LastName": "Marchesi",
     "GenderAsString": "m",
-    "PersonIdCode": 3207,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3207.jpg",
-    "PartyName": "Schweizerische Volkspartei"
+    "PartyAbbreviation": "SVP"
   },
   {
     "ID": 4312,
     "FirstName": "Bruno",
     "LastName": "Storni",
     "GenderAsString": "m",
-    "PersonIdCode": 3208,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3208.jpg",
-    "PartyName": "Sozialdemokratische Partei der Schweiz"
+    "PartyAbbreviation": "SP"
   },
   {
     "ID": 4313,
     "FirstName": "Maja",
     "LastName": "Riniker",
     "GenderAsString": "f",
-    "PersonIdCode": 3209,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3209.jpg",
-    "PartyName": "FDP.Die Liberalen"
+    "PartyAbbreviation": "FDP-Liberale"
   },
   {
     "ID": 4314,
     "FirstName": "Stefanie",
     "LastName": "Heimgartner",
     "GenderAsString": "f",
-    "PersonIdCode": 3210,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3210.jpg",
-    "PartyName": "Schweizerische Volkspartei"
+    "PartyAbbreviation": "SVP"
   },
   {
     "ID": 4315,
     "FirstName": "Florence",
     "LastName": "Brenzikofer",
     "GenderAsString": "f",
-    "PersonIdCode": 3211,
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3211.jpg",
-    "PartyName": "Grüne Partei der Schweiz"
+    "PartyAbbreviation": "GPS"
   }
 ]

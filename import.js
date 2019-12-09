@@ -14,13 +14,15 @@ async function init() {
             FirstName: councillor.FirstName,
             LastName: councillor.LastName,
             GenderAsString: councillor.GenderAsString,            
-            PersonIdCode: councillor.PersonIdCode,
+            // PersonIdCode: councillor.PersonIdCode,
             ImageUrl: councillor.PersonIdCode && imageUrl(councillor.PersonIdCode),
-            PartyName: councillor.MembersCouncil && councillor.MembersCouncil.PartyName,
+            // PartyName: councillor.MembersCouncil && councillor.MembersCouncil.PartyName,
+            PartyAbbreviation: councillor.MembersCouncil && councillor.MembersCouncil.PartyAbbreviation,
         }
     })
-    .filter(councillor => councillor.ImageUrl)
     
+    /*
+    .filter(councillor => councillor.ImageUrl)
     const promisses = councillors.map(async councillor => {
         const { ImageUrl } = councillor
         try {
@@ -30,10 +32,10 @@ async function init() {
             return null
         }
     })
-
     const validCouncillors = (await axios.all(promisses)).filter(p => p !== null)
+    */
 
-    fs.writeFileSync('councillors.json', JSON.stringify(validCouncillors, null, 2))
+    fs.writeFileSync('councillors.json', JSON.stringify(councillors, null, 2))
 }
 
 init()

@@ -17,21 +17,6 @@
 		ende = true
 		lastScore = e.detail
 	}
-	function onKeydown(e) {
-        switch(e.key) {
-            case " ":
-                play()
-				break
-		}
-	}
-	function polarToCartesian(centerX, centerY, radius, angleInDegrees) {
-		var angleInRadians = (angleInDegrees - 90) * Math.PI / 180.0;
-
-		return {
-			x: centerX + (radius * Math.cos(angleInRadians)),
-			y: centerY + (radius * Math.sin(angleInRadians))
-		};
-	}
 </script>
 <style>
 	main {
@@ -45,7 +30,6 @@
 		width: 100%;
 	}
 </style>
-<svelte:window on:keydown={onKeydown} />
 <main>
 	<h1>Guess the Politician</h1>
 	{#if playing}		
@@ -57,9 +41,4 @@
 			<h2>Your Score: {lastScore}</h2>
 		{/if}	
 	{/if}
-	<!--
-	<svg viewBox="0 0 400 400" width="400" height="400">
-		<path fill="orange" stroke="none" fill-rule="evenodd" d={d} />
-	</svg>
-	-->
 </main>
