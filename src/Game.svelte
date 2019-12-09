@@ -56,7 +56,10 @@
     
     function generateAnswers() {
         const maxAnswers = 4
-        const arr = [...politicians]
+        // random take on item to filter by gender or the answers are too obvious
+        const filter = politicians[rand(0, politicians.length)]
+        
+        const arr = [...politicians.filter(p => p.GenderAsString === filter.GenderAsString)]
         const res = []
         const wrightAnswer = rand(0, maxAnswers)
         for(let i=0; i<maxAnswers; i++) {
@@ -114,6 +117,10 @@
     }
     button {
         width: 100%;
+    }
+    button:focus {
+        outline: 0;
+        border-color: transparent;
     }
     section {
         text-align: center;
