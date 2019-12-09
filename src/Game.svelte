@@ -28,7 +28,7 @@
         time.set(0)
         
         timer = setTimeout(() => {
-            onAnswer({ write: false })
+            onAnswer({ wright: false })
         }, maxTime + 1000)
 
         if(counter > maxAnswers) {
@@ -38,13 +38,13 @@
     next()
     
     function onAnswer(answer) {
-        clearTimeout(timer)
         if(showResults) {
             return
-        }    
+        }
+        clearTimeout(timer)
+        showAnswers()    
         rightAnswers += answer.wright * Math.floor($time * maxTime / 1000)
         time = readable($time)
-        showAnswers()
     }
 
     // random number in [min, max[
@@ -96,8 +96,7 @@
     }
 </script>
 <svelte:window on:keydown={onKeydown} />
-<h2>Wer bin ich?</h2>
-<h3>{counter} / {politicians.length}</h3>
+<section>
 <img src={politician.ImageUrl} alt="image of">
 <div>
     <progress value={$time} />
@@ -108,7 +107,11 @@
 {/each}
 </div>
 {rightAnswers}
+</section>
 <style>
+    section {
+        text-align: center;
+    }
     progress {
         width: 100%;
     }
@@ -117,5 +120,10 @@
     }
     .wright {
         background-color: green;
+    }
+    img {
+        width: 260px;
+        height: 260px;
+        border-radius: 50%;
     }
 </style>
