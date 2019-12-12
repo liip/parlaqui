@@ -1,6 +1,9 @@
 <script>
 	import { tweened } from 'svelte/motion'
 	import Game from './Game.svelte'
+	import LanguageSwitch from './LanguageSwitch.svelte'
+	import { t } from './i18n'
+
 	let playing = false
 	let ende = false
 	let lastScore = null
@@ -30,15 +33,17 @@
 		width: 100%;
 	}
 </style>
+
 <main>
-	<h1>Guess the Politician</h1>
+	<h1>{$t('title')}</h1>
 	{#if playing}		
 		<Game on:end={end} />
-		<button on:click={stop}>Quit</button>
+		<button on:click={stop}>{$t('quit')}</button>
 	{:else}
-		<button on:click={play}>Play</button>
+		<button on:click={play}>{$t('play')}</button>
 		{#if lastScore !== null}
-			<h2>Your Score: {lastScore}</h2>
-		{/if}	
+			<h2>{$t('lastScore')} {lastScore}</h2>
+		{/if}
+		<LanguageSwitch />
 	{/if}
 </main>

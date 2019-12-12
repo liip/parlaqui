@@ -4,6 +4,8 @@
     import { tweened } from 'svelte/motion'
     import { rand } from './util'
     import politicians from '../councillors.json'
+    import { t } from './i18n'
+
     const dispatch = createEventDispatcher()
     const maxRounds = 10
     const maxTime = maxRounds * 1000
@@ -117,5 +119,5 @@
 <button on:click={() => onAnswer(answer)} class={showResults ? (answer.wright ? 'wright' : 'wrong') : ''}>{answerLabel(answer)}</button>
 {/each}
 </div>
-Score: {score}
+{$t('score')} {score}
 </section>
