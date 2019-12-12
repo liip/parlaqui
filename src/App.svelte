@@ -2,6 +2,7 @@
 	import { tweened } from 'svelte/motion'
 	import Game from './Game.svelte'
 	import LanguageSwitch from './LanguageSwitch.svelte'
+	import Logo from './Logo.svelte'
 	import { t } from './i18n'
 
 	let playing = false
@@ -32,6 +33,14 @@
 		margin-top: 1rem;
 		width: 100%;
 	}
+	.green {
+		background: #6EA644;
+	}
+	footer {
+		margin-top: 1rem;
+		display: flex;
+		justify-content: space-between;
+	}
 </style>
 
 <main>
@@ -40,10 +49,13 @@
 		<Game on:end={end} />
 		<button on:click={stop}>{$t('quit')}</button>
 	{:else}
-		<button on:click={play}>{$t('play')}</button>
+		<button class="green" on:click={play}>{$t('play')}</button>
 		{#if lastScore !== null}
 			<h2>{$t('lastScore')} {lastScore}</h2>
 		{/if}
-		<LanguageSwitch />
 	{/if}
+	<footer>
+		<LanguageSwitch />
+		<Logo />
+	</footer>	
 </main>

@@ -5,7 +5,6 @@ $: currentLanguage = $language
 
 <style>
     nav {
-        padding: 1rem 0;
         display: flex;
         justify-content: space-between;
     }
@@ -18,8 +17,8 @@ $: currentLanguage = $language
         text-transform: uppercase;
         border: 1px solid #ccc;
         background-color: #f4f4f4;
-        padding: 0.4rem;
-        width: 3rem;
+        padding: 0.3rem;
+        width: 2rem;
         border-radius: 2px;
     }
     .lang:hover, .lang.active {
