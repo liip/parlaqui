@@ -8,15 +8,12 @@ export const setLanguage = lang => language.set(lang)
 language.subscribe(setDefaultLanguage)
 
 function setDefaultLanguage(lang) {
-    const url = `/${lang}`
-    if(location.pathname !== url) {
-        history.pushState(null, null, url)
-    }
+    location.hash = lang
     localStorage.setItem('language', lang)
 }
 
 function getDefaultLanguage() {
-    const urlLanguage = location.pathname.substr(1)
+    const urlLanguage = location.hash.substr(1)
     return languages.find(l => l === urlLanguage) || localStorage.getItem('language') || defaultLanguage
 }
 
