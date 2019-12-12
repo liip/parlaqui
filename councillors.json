@@ -8,11 +8,43 @@
     "PartyAbbreviation": "LDP"
   },
   {
+    "ID": 146,
+    "FirstName": "Ueli",
+    "LastName": "Maurer",
+    "GenderAsString": "m",
+    "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/2310.jpg",
+    "PartyAbbreviation": "SVP"
+  },
+  {
+    "ID": 172,
+    "FirstName": "Paul",
+    "LastName": "Rechsteiner",
+    "GenderAsString": "m",
+    "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/2143.jpg",
+    "PartyAbbreviation": "SP"
+  },
+  {
     "ID": 491,
     "FirstName": "Pierre-Yves",
     "LastName": "Maillard",
     "GenderAsString": "m",
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/2513.jpg",
+    "PartyAbbreviation": "SP"
+  },
+  {
+    "ID": 512,
+    "FirstName": "Simonetta",
+    "LastName": "Sommaruga",
+    "GenderAsString": "f",
+    "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/2534.jpg",
+    "PartyAbbreviation": "SP"
+  },
+  {
+    "ID": 525,
+    "FirstName": "Roberto",
+    "LastName": "Zanetti",
+    "GenderAsString": "m",
+    "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/2546.jpg",
     "PartyAbbreviation": "SP"
   },
   {
@@ -24,6 +56,22 @@
     "PartyAbbreviation": "GPS"
   },
   {
+    "ID": 806,
+    "FirstName": "Maya",
+    "LastName": "Graf",
+    "GenderAsString": "f",
+    "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/2569.jpg",
+    "PartyAbbreviation": "GPS"
+  },
+  {
+    "ID": 825,
+    "FirstName": "Hannes",
+    "LastName": "Germann",
+    "GenderAsString": "m",
+    "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/2575.jpg",
+    "PartyAbbreviation": "SVP"
+  },
+  {
     "ID": 1071,
     "FirstName": "Ruth",
     "LastName": "Humbel",
@@ -32,12 +80,36 @@
     "PartyAbbreviation": "CVP"
   },
   {
+    "ID": 1106,
+    "FirstName": "Brigitte",
+    "LastName": "Häberli-Koller",
+    "GenderAsString": "f",
+    "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/2600.jpg",
+    "PartyAbbreviation": "CVP"
+  },
+  {
+    "ID": 1108,
+    "FirstName": "Guy",
+    "LastName": "Parmelin",
+    "GenderAsString": "m",
+    "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/2621.jpg",
+    "PartyAbbreviation": "SVP"
+  },
+  {
     "ID": 1109,
     "FirstName": "Gerhard",
     "LastName": "Pfister",
     "GenderAsString": "m",
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/2623.jpg",
     "PartyAbbreviation": "CVP"
+  },
+  {
+    "ID": 1120,
+    "FirstName": "Carlo",
+    "LastName": "Sommaruga",
+    "GenderAsString": "m",
+    "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/2632.jpg",
+    "PartyAbbreviation": "SP"
   },
   {
     "ID": 1122,
@@ -72,6 +144,22 @@
     "PartyAbbreviation": "SVP"
   },
   {
+    "ID": 1150,
+    "FirstName": "Christian",
+    "LastName": "Levrat",
+    "GenderAsString": "m",
+    "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/2613.jpg",
+    "PartyAbbreviation": "SP"
+  },
+  {
+    "ID": 1153,
+    "FirstName": "Ruedi",
+    "LastName": "Noser",
+    "GenderAsString": "m",
+    "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/2619.jpg",
+    "PartyAbbreviation": "FDP-Liberale"
+  },
+  {
     "ID": 1159,
     "FirstName": "Pirmin",
     "LastName": "Schwander",
@@ -80,12 +168,44 @@
     "PartyAbbreviation": "SVP"
   },
   {
+    "ID": 1161,
+    "FirstName": "Alain",
+    "LastName": "Berset",
+    "GenderAsString": "m",
+    "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/2642.jpg",
+    "PartyAbbreviation": "SP"
+  },
+  {
+    "ID": 1162,
+    "FirstName": "Alex",
+    "LastName": "Kuprecht",
+    "GenderAsString": "m",
+    "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/2641.jpg",
+    "PartyAbbreviation": "SVP"
+  },
+  {
+    "ID": 1267,
+    "FirstName": "Hans",
+    "LastName": "Stöckli",
+    "GenderAsString": "m",
+    "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/2647.jpg",
+    "PartyAbbreviation": "SP"
+  },
+  {
     "ID": 1279,
     "FirstName": "Roger",
     "LastName": "Nordmann",
     "GenderAsString": "m",
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/2648.jpg",
     "PartyAbbreviation": "SP"
+  },
+  {
+    "ID": 1288,
+    "FirstName": "Viola",
+    "LastName": "Amherd",
+    "GenderAsString": "f",
+    "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/2646.jpg",
+    "PartyAbbreviation": "CVP"
   },
   {
     "ID": 1295,
@@ -112,12 +232,36 @@
     "PartyAbbreviation": "FDP-Liberale"
   },
   {
+    "ID": 3828,
+    "FirstName": "Ignazio",
+    "LastName": "Cassis",
+    "GenderAsString": "m",
+    "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/2664.jpg",
+    "PartyAbbreviation": "FDP-Liberale"
+  },
+  {
+    "ID": 3830,
+    "FirstName": "Marina",
+    "LastName": "Carobbio Guscetti",
+    "GenderAsString": "f",
+    "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/2666.jpg",
+    "PartyAbbreviation": "SP"
+  },
+  {
     "ID": 3867,
     "FirstName": "Andreas",
     "LastName": "Aebi",
     "GenderAsString": "m",
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/2670.jpg",
     "PartyAbbreviation": "SVP"
+  },
+  {
+    "ID": 3871,
+    "FirstName": "Pirmin",
+    "LastName": "Bischof",
+    "GenderAsString": "m",
+    "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/2674.jpg",
+    "PartyAbbreviation": "CVP"
   },
   {
     "ID": 3872,
@@ -141,6 +285,14 @@
     "LastName": "Fiala",
     "GenderAsString": "f",
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/2680.jpg",
+    "PartyAbbreviation": "FDP-Liberale"
+  },
+  {
+    "ID": 3879,
+    "FirstName": "Olivier",
+    "LastName": "Français",
+    "GenderAsString": "m",
+    "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/2682.jpg",
     "PartyAbbreviation": "FDP-Liberale"
   },
   {
@@ -184,6 +336,14 @@
     "PartyAbbreviation": "SVP"
   },
   {
+    "ID": 3891,
+    "FirstName": "Daniel",
+    "LastName": "Jositsch",
+    "GenderAsString": "m",
+    "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/2694.jpg",
+    "PartyAbbreviation": "SP"
+  },
+  {
     "ID": 3895,
     "FirstName": "Christian",
     "LastName": "Lüscher",
@@ -222,6 +382,14 @@
     "GenderAsString": "m",
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/2704.jpg",
     "PartyAbbreviation": "SVP"
+  },
+  {
+    "ID": 3907,
+    "FirstName": "Adèle",
+    "LastName": "Thorens Goumaz",
+    "GenderAsString": "f",
+    "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/2710.jpg",
+    "PartyAbbreviation": "GPS"
   },
   {
     "ID": 3910,
@@ -352,6 +520,22 @@
     "PartyAbbreviation": "FDP-Liberale"
   },
   {
+    "ID": 4055,
+    "FirstName": "Stefan",
+    "LastName": "Engler",
+    "GenderAsString": "m",
+    "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/2768.jpg",
+    "PartyAbbreviation": "CVP"
+  },
+  {
+    "ID": 4056,
+    "FirstName": "Daniel",
+    "LastName": "Fässler",
+    "GenderAsString": "m",
+    "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/2767.jpg",
+    "PartyAbbreviation": "CVP"
+  },
+  {
     "ID": 4057,
     "FirstName": "Cédric",
     "LastName": "Wermuth",
@@ -381,6 +565,14 @@
     "LastName": "Schneeberger",
     "GenderAsString": "f",
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/2766.jpg",
+    "PartyAbbreviation": "FDP-Liberale"
+  },
+  {
+    "ID": 4062,
+    "FirstName": "Karin",
+    "LastName": "Keller-Sutter",
+    "GenderAsString": "f",
+    "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/2769.jpg",
     "PartyAbbreviation": "FDP-Liberale"
   },
   {
@@ -432,11 +624,27 @@
     "PartyAbbreviation": "SP"
   },
   {
+    "ID": 4075,
+    "FirstName": "Andrea",
+    "LastName": "Caroni",
+    "GenderAsString": "m",
+    "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/2775.jpg",
+    "PartyAbbreviation": "FDP-Liberale"
+  },
+  {
     "ID": 4077,
     "FirstName": "Olivier",
     "LastName": "Feller",
     "GenderAsString": "m",
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/2789.jpg",
+    "PartyAbbreviation": "FDP-Liberale"
+  },
+  {
+    "ID": 4078,
+    "FirstName": "Martin",
+    "LastName": "Schmid",
+    "GenderAsString": "m",
+    "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/2783.jpg",
     "PartyAbbreviation": "FDP-Liberale"
   },
   {
@@ -568,6 +776,22 @@
     "PartyAbbreviation": "SP"
   },
   {
+    "ID": 4112,
+    "FirstName": "Thomas",
+    "LastName": "Minder",
+    "GenderAsString": "m",
+    "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3019.jpg",
+    "PartyAbbreviation": "-"
+  },
+  {
+    "ID": 4114,
+    "FirstName": "Hansjörg",
+    "LastName": "Knecht",
+    "GenderAsString": "m",
+    "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3021.jpg",
+    "PartyAbbreviation": "SVP"
+  },
+  {
     "ID": 4116,
     "FirstName": "Petra",
     "LastName": "Gössi",
@@ -656,6 +880,14 @@
     "PartyAbbreviation": "SP"
   },
   {
+    "ID": 4139,
+    "FirstName": "Thomas",
+    "LastName": "Hefti",
+    "GenderAsString": "m",
+    "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3041.jpg",
+    "PartyAbbreviation": "FDP-Liberale"
+  },
+  {
     "ID": 4141,
     "FirstName": "Hans-Peter",
     "LastName": "Portmann",
@@ -688,6 +920,30 @@
     "PartyAbbreviation": "BDP"
   },
   {
+    "ID": 4151,
+    "FirstName": "Josef",
+    "LastName": "Dittli",
+    "GenderAsString": "m",
+    "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3052.jpg",
+    "PartyAbbreviation": "FDP-Liberale"
+  },
+  {
+    "ID": 4152,
+    "FirstName": "Hans",
+    "LastName": "Wicki",
+    "GenderAsString": "m",
+    "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3054.jpg",
+    "PartyAbbreviation": "FDP-Liberale"
+  },
+  {
+    "ID": 4153,
+    "FirstName": "Peter",
+    "LastName": "Hegglin",
+    "GenderAsString": "m",
+    "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3053.jpg",
+    "PartyAbbreviation": "CVP"
+  },
+  {
     "ID": 4154,
     "FirstName": "Jean-Luc",
     "LastName": "Addor",
@@ -709,6 +965,14 @@
     "LastName": "Burgherr",
     "GenderAsString": "m",
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3064.jpg",
+    "PartyAbbreviation": "SVP"
+  },
+  {
+    "ID": 4159,
+    "FirstName": "Marco",
+    "LastName": "Chiesa",
+    "GenderAsString": "m",
+    "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3067.jpg",
     "PartyAbbreviation": "SVP"
   },
   {
@@ -792,6 +1056,14 @@
     "PartyAbbreviation": "SVP"
   },
   {
+    "ID": 4172,
+    "FirstName": "Werner",
+    "LastName": "Salzmann",
+    "GenderAsString": "m",
+    "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3092.jpg",
+    "PartyAbbreviation": "SVP"
+  },
+  {
     "ID": 4173,
     "FirstName": "Sandra",
     "LastName": "Sollberger",
@@ -840,6 +1112,14 @@
     "PartyAbbreviation": "SVP"
   },
   {
+    "ID": 4181,
+    "FirstName": "Andrea",
+    "LastName": "Gmür-Schönenberger",
+    "GenderAsString": "f",
+    "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3075.jpg",
+    "PartyAbbreviation": "CVP"
+  },
+  {
     "ID": 4184,
     "FirstName": "Sibel",
     "LastName": "Arslan",
@@ -848,11 +1128,35 @@
     "PartyAbbreviation": "BastA"
   },
   {
+    "ID": 4186,
+    "FirstName": "Lisa",
+    "LastName": "Mazzone",
+    "GenderAsString": "f",
+    "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3086.jpg",
+    "PartyAbbreviation": "GPS"
+  },
+  {
+    "ID": 4187,
+    "FirstName": "Philippe",
+    "LastName": "Bauer",
+    "GenderAsString": "m",
+    "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3059.jpg",
+    "PartyAbbreviation": "FDP-Liberale"
+  },
+  {
     "ID": 4188,
     "FirstName": "Frédéric",
     "LastName": "Borloz",
     "GenderAsString": "m",
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3061.jpg",
+    "PartyAbbreviation": "FDP-Liberale"
+  },
+  {
+    "ID": 4189,
+    "FirstName": "Thierry",
+    "LastName": "Burkart",
+    "GenderAsString": "m",
+    "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3065.jpg",
     "PartyAbbreviation": "FDP-Liberale"
   },
   {
@@ -936,12 +1240,44 @@
     "PartyAbbreviation": "SP"
   },
   {
+    "ID": 4204,
+    "FirstName": "Beat",
+    "LastName": "Rieder",
+    "GenderAsString": "m",
+    "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3105.jpg",
+    "PartyAbbreviation": "CVP"
+  },
+  {
+    "ID": 4206,
+    "FirstName": "Erich",
+    "LastName": "Ettlin",
+    "GenderAsString": "m",
+    "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3107.jpg",
+    "PartyAbbreviation": "CVP"
+  },
+  {
+    "ID": 4207,
+    "FirstName": "Damian",
+    "LastName": "Müller",
+    "GenderAsString": "m",
+    "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3108.jpg",
+    "PartyAbbreviation": "FDP-Liberale"
+  },
+  {
     "ID": 4208,
     "FirstName": "Matthias Samuel",
     "LastName": "Jauslin",
     "GenderAsString": "m",
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3109.jpg",
     "PartyAbbreviation": "FDP-Liberale"
+  },
+  {
+    "ID": 4210,
+    "FirstName": "Walter",
+    "LastName": "Thurnherr",
+    "GenderAsString": "m",
+    "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3112.jpg",
+    "PartyAbbreviation": "CVP"
   },
   {
     "ID": 4213,
@@ -1078,6 +1414,70 @@
     "GenderAsString": "m",
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3134.jpg",
     "PartyAbbreviation": "SVP"
+  },
+  {
+    "ID": 4237,
+    "FirstName": "Benedikt",
+    "LastName": "Würth",
+    "GenderAsString": "m",
+    "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3136.jpg",
+    "PartyAbbreviation": "CVP"
+  },
+  {
+    "ID": 4238,
+    "FirstName": "Elisabeth",
+    "LastName": "Baume-Schneider",
+    "GenderAsString": "f",
+    "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3193.jpg",
+    "PartyAbbreviation": "PdA"
+  },
+  {
+    "ID": 4239,
+    "FirstName": "Eva",
+    "LastName": "Herzog",
+    "GenderAsString": "f",
+    "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3194.jpg",
+    "PartyAbbreviation": "SP"
+  },
+  {
+    "ID": 4240,
+    "FirstName": "Charles",
+    "LastName": "Juillard",
+    "GenderAsString": "m",
+    "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3195.jpg",
+    "PartyAbbreviation": "CVP"
+  },
+  {
+    "ID": 4241,
+    "FirstName": "Jakob",
+    "LastName": "Stark",
+    "GenderAsString": "m",
+    "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3196.jpg",
+    "PartyAbbreviation": "SVP"
+  },
+  {
+    "ID": 4242,
+    "FirstName": "Céline",
+    "LastName": "Vara",
+    "GenderAsString": "f",
+    "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3197.jpg",
+    "PartyAbbreviation": "GPS"
+  },
+  {
+    "ID": 4243,
+    "FirstName": "Heidi",
+    "LastName": "Z'graggen",
+    "GenderAsString": "f",
+    "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3198.jpg",
+    "PartyAbbreviation": "CVP"
+  },
+  {
+    "ID": 4244,
+    "FirstName": "Mathias",
+    "LastName": "Zopfi",
+    "GenderAsString": "m",
+    "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3199.jpg",
+    "PartyAbbreviation": "GPS"
   },
   {
     "ID": 4245,
@@ -1544,6 +1944,14 @@
     "PartyAbbreviation": "EGsolS"
   },
   {
+    "ID": 4303,
+    "FirstName": "Marianne",
+    "LastName": "Maret",
+    "GenderAsString": "f",
+    "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3200.jpg",
+    "PartyAbbreviation": "CVP"
+  },
+  {
     "ID": 4304,
     "FirstName": "Mustafa",
     "LastName": "Atici",
@@ -1560,6 +1968,14 @@
     "PartyAbbreviation": "CVP"
   },
   {
+    "ID": 4306,
+    "FirstName": "Johanna",
+    "LastName": "Gapany",
+    "GenderAsString": "f",
+    "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3183.jpg",
+    "PartyAbbreviation": "FDP-Liberale"
+  },
+  {
     "ID": 4307,
     "FirstName": "Valentine",
     "LastName": "Python",
@@ -1574,6 +1990,14 @@
     "GenderAsString": "f",
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3204.jpg",
     "PartyAbbreviation": "GPS"
+  },
+  {
+    "ID": 4309,
+    "FirstName": "Matthias",
+    "LastName": "Michel",
+    "GenderAsString": "m",
+    "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3205.jpg",
+    "PartyAbbreviation": "FDP-Liberale"
   },
   {
     "ID": 4310,
@@ -1622,5 +2046,13 @@
     "GenderAsString": "f",
     "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3211.jpg",
     "PartyAbbreviation": "GPS"
+  },
+  {
+    "ID": 4316,
+    "FirstName": "Othmar",
+    "LastName": "Reichmuth",
+    "GenderAsString": "m",
+    "ImageUrl": "https://www.parlament.ch/sitecollectionimages/profil/portrait-260/3212.jpg",
+    "PartyAbbreviation": "CVP"
   }
 ]
