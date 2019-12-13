@@ -6,6 +6,8 @@
 	import Logo from './Logo.svelte'
 	import { t } from './i18n'
 	import tracking from './tracking'
+	import Progress from './Progress.svelte'
+
 	let playing = false
 	let ende = false
 	let lastScore = null

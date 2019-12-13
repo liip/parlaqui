@@ -6,6 +6,7 @@
     import politicians from '../councillors.json'
     import { t } from './i18n'
     import tracking from './tracking'
+    import Progress from './Progress.svelte'
 
     const dispatch = createEventDispatcher()
     const maxRounds = 10
@@ -19,6 +20,7 @@
     let showResults = false
     let timer
     let answerTimer
+    let progress = new Array(maxRounds)
     $: currentScore = Math.floor($time * 10)
 
     onDestroy(() => {
@@ -49,7 +51,8 @@
             return
         }
         clearTimeout(timer)
-        showAnswers()    
+        showAnswers()
+        progress[round-1] = answer.wright
         score += answer.wright * currentScore
         time = readable($time)
         answer.wrightID = politician.ID
@@ -118,6 +121,7 @@
 <div>
     {currentScore}<progress value={$time} />
 </div>
+<Progress items={progress} />
 <div class="buttons">
 {#each answers as answer}
 <button on:click={() => onAnswer(answer)} class={showResults ? (answer.wright ? 'wright' : 'wrong') : ''}>{answerLabel(answer)}</button>
