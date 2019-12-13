@@ -5,7 +5,8 @@
     import { rand } from './util'
     import politicians from '../councillors.json'
     import { t } from './i18n'
-    
+    import tracking from './tracking'
+
     const dispatch = createEventDispatcher()
     const maxRounds = 10
     const maxTime = maxRounds * 1000
@@ -35,7 +36,7 @@
         time.set(0)
         
         timer = setTimeout(() => {
-            onAnswer({ wright: false })
+            onAnswer({ wright: false, })
         }, maxTime + 1000)
 
         if(round > maxRounds) {
@@ -51,6 +52,7 @@
         showAnswers()    
         score += answer.wright * currentScore
         time = readable($time)
+        tracking.gameAnswerClick(answer)
     }
 
     function generateAnswers() {
@@ -110,6 +112,7 @@
 </style>
 
 <section>
+<h2>{$t('score')} {score}</h2>
 <img src={politician.ImageUrl} alt="image of">
 <div>
     {currentScore}<progress value={$time} />
@@ -119,5 +122,4 @@
 <button on:click={() => onAnswer(answer)} class={showResults ? (answer.wright ? 'wright' : 'wrong') : ''}>{answerLabel(answer)}</button>
 {/each}
 </div>
-{$t('score')} {score}
 </section>

@@ -4,22 +4,25 @@
 	import LanguageSwitch from './LanguageSwitch.svelte'
 	import Icon from './Icon.svelte'
 	import { t } from './i18n'
-
+	import tracking from './tracking'
 	let playing = false
 	let ende = false
 	let lastScore = null
 
 	function play() {
 		playing = true
+		tracking.gameStart()
 	}
 	function stop() {
 		playing = false
 		ende = true
+		tracking.gameAbort()
 	}
 	function end(e) {
 		playing = false
 		ende = true
 		lastScore = e.detail
+		tracking.gameEnd(lastScore)		
 	}
 </script>
 <style>
@@ -67,7 +70,6 @@
 		animation: shadow-pulse 1s infinite;
 	}
 </style>
-
 <main>
 	<h1>{$t('title')} {#if playing}<a class="close" on:click={stop} href="javascript:"><Icon name="close" size={100} /></a>{/if}</h1>
 	

@@ -1,7 +1,8 @@
 import { writable, derived } from 'svelte/store'
+import tracking from './tracking'
 
 const defaultLanguage = 'de'
-export const languages = ['de', 'fr', 'it', 'gr']
+export const languages = ['de', 'fr', 'it', 'rm']
 export const language = writable(getDefaultLanguage()) 
 export const setLanguage = lang => language.set(lang)
 
@@ -10,6 +11,7 @@ language.subscribe(setDefaultLanguage)
 function setDefaultLanguage(lang) {
     location.hash = lang
     localStorage.setItem('language', lang)
+    tracking.languageSet(lang)
 }
 
 function getDefaultLanguage() {
