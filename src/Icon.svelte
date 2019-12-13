@@ -14,6 +14,10 @@
     top: -1px;
     fill: currentColor;
 }
+.icon--close {
+  stroke-width: 2px;
+  stroke: #000; 
+}
 </style>
 <svg class={className} style={style}>
   <use xlink:href="icons.svg#{name}" />

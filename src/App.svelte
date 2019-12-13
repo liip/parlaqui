@@ -58,13 +58,21 @@
 	a {
     	color: #414141;;
 	}
+	.close {
+		float: right;
+		margin: 0;
+		padding: 0;
+	}
+	.close:hover {
+		animation: shadow-pulse 1s infinite;
+	}
 </style>
 
 <main>
-	<h1>{$t('title')}</h1>
+	<h1>{$t('title')} {#if playing}<a class="close" on:click={stop} href="javascript:"><Icon name="close" size={100} /></a>{/if}</h1>
+	
 	{#if playing}		
 		<Game on:end={end} />
-		<button on:click={stop}>{$t('quit')}</button>
 	{:else}
 		<button class="play green" on:click={play}>{$t('play')}</button>
 		{#if lastScore !== null}
