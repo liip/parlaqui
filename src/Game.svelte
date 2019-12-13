@@ -52,6 +52,7 @@
         showAnswers()    
         score += answer.wright * currentScore
         time = readable($time)
+        answer.wrightID = politician.ID
         tracking.gameAnswerClick(answer)
     }
 

@@ -15,9 +15,9 @@ export const gameEnd = (score) => {
     dataLayer.push({ event: 'game.end', score })
 }
 
-export const gameAnswerClick = ({wright, ID}) => {
+export const gameAnswerClick = ({wright, ID, wrightID}) => {
     if(ID) {
-        dataLayer.push({ event: 'game.answer.click', wright, ID })    
+        dataLayer.push({ event: 'game.answer.click', wright, ID, wrightID })    
     } else {
         dataLayer.push({ event: 'game.answer.timeout'})    
     }
