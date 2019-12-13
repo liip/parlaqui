@@ -17,14 +17,13 @@ $: currentLanguage = $language
         text-transform: uppercase;
         border: 1px solid #ccc;
         background-color: #f4f4f4;
-        padding: 0.3rem;
+        margin: 2rem 0.3rem;
         width: 2rem;
         border-radius: 2px;
     }
     .lang:hover, .lang.active {
-        background-color: #ccc;
+        background-color: #6EA644;
     }
-
 </style>
 
 <nav>

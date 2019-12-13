@@ -5,7 +5,7 @@
     import { rand } from './util'
     import politicians from '../councillors.json'
     import { t } from './i18n'
-
+    
     const dispatch = createEventDispatcher()
     const maxRounds = 10
     const maxTime = maxRounds * 1000
@@ -97,10 +97,10 @@
         width: 100%;
     }
     .wrong {
-        background-color: red;
+        background-color: #c02e00;
     }
     .wright {
-        background-color: green;
+        background-color: #6EA644;
     }
     img {
         width: 260px;
