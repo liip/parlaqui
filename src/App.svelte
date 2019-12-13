@@ -3,6 +3,7 @@
 	import Game from './Game.svelte'
 	import LanguageSwitch from './LanguageSwitch.svelte'
 	import Icon from './Icon.svelte'
+	import Logo from './Logo.svelte'
 	import { t } from './i18n'
 	import tracking from './tracking'
 	let playing = false
@@ -30,7 +31,7 @@
 		margin-left: auto;
 		margin-right: auto;
 		padding: 0 1rem;
-		width: 340px;
+		max-width: 400px;
 	}
 	button {
 		margin-top: 1rem;
@@ -59,7 +60,7 @@
 		justify-content: space-between;
 	}
 	a {
-    	color: #414141;;
+    	color: #414141;
 	}
 	.close {
 		float: right;
@@ -82,7 +83,7 @@
 		{/if}
 		<footer>
 			<LanguageSwitch />
-			<a href="https://liip.ch"><Icon size={300} /></a>
+			<a href="https://liip.ch"><Logo /></a>
 		</footer>	
 	{/if}
 </main>

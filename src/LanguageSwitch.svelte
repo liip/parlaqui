@@ -7,23 +7,19 @@ $: currentLanguage = $language
     nav {
         display: flex;
         justify-content: space-between;
+        align-items: center;
     }
     a:hover {
         text-decoration: none;
     }
     .lang {
-        color: #333;
+        color: #414141;
         text-align: center;
         text-transform: uppercase;
-        border: 1px solid #ccc;
-        background-color: #f4f4f4;
-        margin: 2rem 0.3rem;
-        width: 2rem;
-        border-radius: 2px;
-        transition: font-weight 200ms;
+        padding: 0.4rem;
     }
     .lang:hover, .lang.active {
-        font-weight: bold;
+        text-decoration: underline;
     }
 </style>
 

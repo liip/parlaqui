@@ -3,7 +3,7 @@
     export let size = 200
     $: className = `icon icon--${name}`
     $: sizePixel = Number.parseInt(24 * size / 100)
-    $: style = `width: ${sizePixel}px; height: ${sizePixel}px` 
+    $: style = `width: ${sizePixel}px;` 
 </script>
 
 <style>
