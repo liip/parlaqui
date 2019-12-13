@@ -71,18 +71,18 @@
 	}
 </style>
 <main>
-	<h1>{$t('title')} {#if playing}<a class="close" on:click={stop} href="javascript:"><Icon name="close" size={100} /></a>{/if}</h1>
-	
 	{#if playing}		
+		<h1>{$t('description')} <a class="close" on:click={stop} href="javascript:"><Icon name="close" size={100} /></a></h1>
 		<Game on:end={end} />
 	{:else}
+		<h1>{$t('title')}</h1>
 		<button class="play green" on:click={play}>{$t('play')}</button>
 		{#if lastScore !== null}
 			<h2>{$t('lastScore')} {lastScore}</h2>
 		{/if}
+		<footer>
+			<LanguageSwitch />
+			<a href="https://liip.ch"><Icon size={300} /></a>
+		</footer>	
 	{/if}
-	<footer>
-		<LanguageSwitch />
-		<a href="https://liip.ch"><Icon size={300} /></a>
-	</footer>	
 </main>

@@ -20,9 +20,10 @@ $: currentLanguage = $language
         margin: 2rem 0.3rem;
         width: 2rem;
         border-radius: 2px;
+        transition: font-weight 200ms;
     }
     .lang:hover, .lang.active {
-        background-color: #6EA644;
+        font-weight: bold;
     }
 </style>
 

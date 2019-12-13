@@ -21,31 +21,31 @@ function getDefaultLanguage() {
 
 const dictionaries = {
     de: {
-        title: 'Rate den Politiker',
-        play: 'Spielen',
-        quit: 'Beenden',
-        lastScore: 'Erreichte Punkte:',
+        title: 'Parlaqui',
+        description: 'Wer bin ich?',
+        play: 'Spielen / jetzt loslegen',
+        lastScore: 'Teile dein Ergebnis:',
         score: 'Punkte:',
     },
     fr: {
-        title: 'Évaluez le politicien',
-        play: 'Jouer',
-        quit: 'Sortie',
-        lastScore: 'Points gagnés:',
+        title: 'Parlaqui',
+        description: 'Qui suis-je ?',
+        play: 'Jouer / commencer maintenant',
+        lastScore: 'Partagez vos résultats',
         score: 'Points:',
     },
     it: {
-        title: 'Valuta il politico',
-        play: 'Gioco',
-        quit: 'Uscita',
-        lastScore: 'Punti guadagnati:',
+        title: 'Parlaqui',
+        description: 'chi sono io?',
+        play: 'gioca / inizia ora',
+        lastScore: 'condividi i tuoi risultati',
         score: 'Punti:',
     },
-    gr: {
-        title: 'Rate den Politiker',
-        play: 'Spielen',
-        quit: 'Beenden',
-        lastScore: 'Erreichte Punkte:',
+    rm: {
+        title: 'Parlaqui',
+        description: 'tgi sun jau?',
+        play: 'guigar / cumenzar uss',
+        lastScore: 'parta tes resultat',
         score: 'Punkte:',
     },
 }
