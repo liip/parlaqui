@@ -34,9 +34,6 @@
 </script>
 <style>
 	main {
-		display: flex;
-		flex-direction: column;
-		justify-content: space-between;
 		margin-left: auto;
 		margin-right: auto;
 		max-width: 400px;
@@ -56,6 +53,7 @@
 	}
 	section {
 		text-align: center;
+		margin-bottom: 1rem;
 	}
 	header {
 		display: flex;
