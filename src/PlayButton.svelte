@@ -3,13 +3,11 @@
         width: 260px;
         height: 260px;
         border-radius: 50%;
-        animation: shadow-pulse 1s infinite;
+        animation: shadow-pulse 3s infinite;
         color: white;
-        background: #6EA644; 
+        background: #2c3e50; 
 	}
-    button:hover {
-        box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
-    }
+    
     @keyframes shadow-pulse
     {
         0% {

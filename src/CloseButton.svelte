@@ -15,7 +15,7 @@
         border-color: rgba(197, 191, 191, 0.1);
     }
     svg path {
-        stroke: #ccc;
+        stroke: #2c3e50;
     }
 </style>
 <button transition:fade={{duration: 200}} on:click title="abbrechen">

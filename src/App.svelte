@@ -34,15 +34,18 @@
 </script>
 <style>
 	main {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
 		margin-left: auto;
 		margin-right: auto;
-		padding: 0 1rem;
 		max-width: 400px;
+		height: 100%;
 	}
 	footer {
-		margin-top: 1rem;
 		display: flex;
 		justify-content: space-between;
+		margin-bottom: 1rem;
 	}
 	a {
     	color: #414141;
@@ -57,6 +60,7 @@
 		display: flex;
 		justify-content: space-between;
 	}
+	/*
 	.background:before, .background:after {
 		z-index: -1;
 		content: "";
@@ -72,10 +76,10 @@
 		transform: rotate(100deg);
 		top: 20vw;
 		left: 20vw;
-	}
+	}*/
 </style>
-	<main>
-		<div class="background"></div>
+<main>
+	<div>
 		<header class={playing && `playing`}>
 			<Logo />
 			{#if playing}
@@ -92,10 +96,9 @@
 			{/if}
 		{/if}
 		</section>
-		{#if !playing}
-		<footer>
-			<LanguageSwitch />
-			<a href="https://liip.ch"><LiipLogo /></a>
-		</footer>
-		{/if}
-	</main>
+	</div>
+	<footer>
+		<LanguageSwitch />
+		<a href="https://liip.ch"><LiipLogo /></a>
+	</footer>
+</main>

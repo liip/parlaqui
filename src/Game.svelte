@@ -10,6 +10,7 @@
     import { t } from './i18n'
     import tracking from './tracking'
     import Progress from './Progress.svelte'
+    import Avatar from './Avatar.svelte'
 
     const dispatch = createEventDispatcher()
     const maxRounds = 10
@@ -86,9 +87,7 @@
             next()
         }, 1000)
     }
-
     const answerLabel = ({FirstName, LastName, PartyAbbreviation}) => `${FirstName} ${LastName} (${PartyAbbreviation})`
-
 </script>
 <style>
     .buttons {
@@ -104,27 +103,16 @@
     section {
         text-align: center;
     }
-    progress {
-        width: 100%;
-    }
     .wrong {
         background-color: #c02e00;
     }
     .wright {
         background-color: #6EA644;
     }
-    img {
-        width: 260px;
-        height: 260px;
-        border-radius: 50%;
-    }
 </style>
 
 <section>
-    <img src={politician.ImageUrl} alt="image of">
-    <div>
-        {currentScore}<progress value={$time} />
-    </div>
+    <Avatar url={politician.ImageUrl} value={1 - $time} />
     <Progress items={progress} />
     <div class="buttons">
         {#each answers as answer, index }
