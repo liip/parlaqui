@@ -3,12 +3,20 @@
     fill: #2c3e50;
     display: inline;
   }
+  svg {
+    width: 237px;
+    height: 80px;
+  }
+  @media (max-width: 320px) {
+    svg {
+      height: 40px;
+      width: 115px;
+    }
+  }
 </style>
 
 <div class="logo">
   <svg
-    width="237"
-    height="80"
     viewBox="20 20 237 117"
     xmlns="http://www.w3.org/2000/svg">    
     <path

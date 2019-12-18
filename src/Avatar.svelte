@@ -7,8 +7,8 @@
 </script>
 <style>
     img {
-        width: 260px;
-        height: 260px;
+        width: 200px;
+        height: 200px;
         border-radius: 50%; 
     }
     svg {
@@ -18,8 +18,8 @@
         stroke: #2c3e50;
         fill: transparent;
         stroke-width: 10px;
-        width: 280px;
-        height: 280px;
+        width: 220px;
+        height: 220px;
         transform: rotateY(-180deg) rotateZ(-90deg);
     }
     .avatar {

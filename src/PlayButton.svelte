@@ -1,7 +1,7 @@
 <style>
 	button {
-        width: 260px;
-        height: 260px;
+        width: 220px;
+        height: 220px;
         border-radius: 50%;
         animation: shadow-pulse 3s infinite;
         color: white;
