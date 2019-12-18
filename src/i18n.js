@@ -33,6 +33,7 @@ const dictionaries = {
         lastScore: 'Dein Ergebnis:',
         score: 'Punkte:',
         party: byId('De'),
+        quit: 'Beenden',
     },
     fr: {
         title: 'Parlaqui',
@@ -41,6 +42,7 @@ const dictionaries = {
         lastScore: 'Ton score:',
         score: 'Points:',
         party: byId('Fr'),
+        quit: 'quitter',
     },
     it: {
         title: 'Parlaqui',
@@ -49,6 +51,7 @@ const dictionaries = {
         lastScore: 'il tuo punteggio:',
         score: 'Punti:',
         party: byId('It'),
+        quit: 'esci',
     },
     rm: {
         title: 'Parlaqui',
@@ -57,6 +60,7 @@ const dictionaries = {
         lastScore: 'tes resultat:',
         score: 'Punkte:',
         party: byId('Rm'),
+        quit: 'finir',
     },
 }
 

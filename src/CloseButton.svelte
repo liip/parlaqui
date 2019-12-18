@@ -1,10 +1,11 @@
 <script>
     import { fade } from 'svelte/transition'
+    import { t } from './i18n'
 </script>
 <style>
     button {
-        width: 3rem;
-        height: 3rem;
+        width: 2rem;
+        height: 2rem;
         border-radius: 50%;
         border: 1px solid white;
         background-color: white;
@@ -17,7 +18,7 @@
         stroke: #2c3e50;
     }
 </style>
-<button transition:fade={{duration: 200}} on:click title="abbrechen">
+<button transition:fade={{duration: 200}} on:click title={$t('quit')}>
     <svg viewBox="0 0 10 10">
         <path d="
             M1,1

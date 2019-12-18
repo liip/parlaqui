@@ -3,7 +3,7 @@
     export let value = 0
     const u = Math.PI * 125 * 2 - 0.1
     $: offset = u * value
-    $: style = `stroke-dashoffset: ${offset}px; stroke-dasharray: ${u}px;`
+    $: style = `stroke-dashoffset: ${offset}px; stroke-dasharray: ${u}px; opacity: ${1-value}`
 </script>
 <style>
     img {
