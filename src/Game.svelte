@@ -1,6 +1,9 @@
 <script>
     import { createEventDispatcher, onDestroy } from 'svelte'
     import { readable } from 'svelte/store'
+    import { fly, crossfade } from 'svelte/transition'
+    import { flip } from 'svelte/animate';
+    import { quintOut } from 'svelte/easing';
     import { tweened } from 'svelte/motion'
     import { rand } from './util'
     import politicians from '../councillors.json'
@@ -78,12 +81,14 @@
     function showAnswers() {
         showResults = true
         answerTimer = setTimeout(() => {
+            answers = []
             showResults = false
             next()
         }, 1000)
     }
 
     const answerLabel = ({FirstName, LastName, PartyAbbreviation}) => `${FirstName} ${LastName} (${PartyAbbreviation})`
+
 </script>
 <style>
     .buttons {
@@ -122,8 +127,13 @@
     </div>
     <Progress items={progress} />
     <div class="buttons">
-        {#each answers as answer}
-        <button on:mousedown={() => onAnswer(answer)} class={showResults ? (answer.wright ? 'wright' : 'wrong') : ''}>{answerLabel(answer)}</button>
+        {#each answers as answer, index }
+        <button
+            on:click={() => onAnswer(answer)} 
+            class={showResults ? (answer.wright ? 'wright' : 'wrong') : ''}
+        >
+            {answerLabel(answer)}
+        </button>
         {/each}
     </div>
 </section>

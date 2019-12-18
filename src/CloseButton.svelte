@@ -1,3 +1,6 @@
+<script>
+    import { fade } from 'svelte/transition'
+</script>
 <style>
     button {
         width: 3rem;
@@ -9,13 +12,13 @@
     }
     button:hover {
         box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.15);
-        border-color: #bbb;
+        border-color: rgba(197, 191, 191, 0.1);
     }
     svg path {
         stroke: #ccc;
     }
 </style>
-<button on:click title="abbrechen">
+<button transition:fade={{duration: 200}} on:click title="abbrechen">
     <svg viewBox="0 0 10 10">
         <path d="
             M1,1

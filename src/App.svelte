@@ -57,8 +57,25 @@
 		display: flex;
 		justify-content: space-between;
 	}
+	.background:before, .background:after {
+		z-index: -1;
+		content: "";
+		position: absolute;
+		top: -20vw;
+		left: -20vw;
+		width: 100vw;
+		height: 100vw;
+		background: linear-gradient(rgba(176, 176, 150, 0.2), hsla(0, 0%, 100%, 0));
+		border-radius: 50%;
+	}
+	.background:after {
+		transform: rotate(100deg);
+		top: 20vw;
+		left: 20vw;
+	}
 </style>
 	<main>
+		<div class="background"></div>
 		<header class={playing && `playing`}>
 			<Logo />
 			{#if playing}

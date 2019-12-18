@@ -7,7 +7,9 @@
         color: white;
         background: #6EA644; 
 	}
-
+    button:hover {
+        box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+    }
     @keyframes shadow-pulse
     {
         0% {
