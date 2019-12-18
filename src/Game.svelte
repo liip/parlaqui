@@ -116,15 +116,14 @@
 </style>
 
 <section>
-<h2>{$t('score')} {score}</h2>
-<img src={politician.ImageUrl} alt="image of">
-<div>
-    {currentScore}<progress value={$time} />
-</div>
-<Progress items={progress} />
-<div class="buttons">
-{#each answers as answer}
-<button on:click={() => onAnswer(answer)} class={showResults ? (answer.wright ? 'wright' : 'wrong') : ''}>{answerLabel(answer)}</button>
-{/each}
-</div>
+    <img src={politician.ImageUrl} alt="image of">
+    <div>
+        {currentScore}<progress value={$time} />
+    </div>
+    <Progress items={progress} />
+    <div class="buttons">
+        {#each answers as answer}
+        <button on:mousedown={() => onAnswer(answer)} class={showResults ? (answer.wright ? 'wright' : 'wrong') : ''}>{answerLabel(answer)}</button>
+        {/each}
+    </div>
 </section>

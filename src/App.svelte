@@ -3,10 +3,14 @@
 	import Game from './Game.svelte'
 	import LanguageSwitch from './LanguageSwitch.svelte'
 	import Icon from './Icon.svelte'
+	import LiipLogo from './LiipLogo.svelte'
 	import Logo from './Logo.svelte'
 	import { t } from './i18n'
 	import tracking from './tracking'
 	import Progress from './Progress.svelte'
+	import PlayButton from './PlayButton.svelte'
+	import CloseButton from './CloseButton.svelte'
+	import { fade, fly } from 'svelte/transition'
 
 	let playing = false
 	let ende = false
@@ -35,27 +39,6 @@
 		padding: 0 1rem;
 		max-width: 400px;
 	}
-	button {
-		margin-top: 1rem;
-		width: 100%;
-		cursor: pointer;
-	}
-	.play {
-		animation: shadow-pulse 1s infinite;
-		color: white;
-	}
-	@keyframes shadow-pulse
-    {
-        0% {
-            box-shadow: 0 0 0 0px rgba(110,166,68, 0.2);
-        }
-        100% {
-            box-shadow: 0 0 0 35px rgba(0, 0, 0, 0);
-        }
-    }
-	.green {
-		background: #6EA644;
-	}
 	footer {
 		margin-top: 1rem;
 		display: flex;
@@ -64,28 +47,38 @@
 	a {
     	color: #414141;
 	}
-	.close {
-		float: right;
-		margin: 0;
-		padding: 0;
+	.background {
+		height: 100%;
 	}
-	.close:hover {
-		animation: shadow-pulse 1s infinite;
+	section {
+		text-align: center;
+	}
+	header {
+		display: flex;
+		justify-content: space-between;
 	}
 </style>
-<main>
-	{#if playing}		
-		<h1>{$t('description')} <a class="close" on:click={stop} href="javascript:"><Icon name="close" size={100} /></a></h1>
-		<Game on:end={end} />
-	{:else}
-		<h1>{$t('title')}</h1>
-		<button class="play green" on:click={play}>{$t('play')}</button>
-		{#if lastScore !== null}
-			<h2>{$t('lastScore')} {lastScore}</h2>
+	<main>
+		<header class={playing && `playing`}>
+			<Logo />
+			{#if playing}
+			<CloseButton on:click={stop} />	
+			{/if}
+		</header>
+		<section>
+		{#if playing}			
+			<Game on:end={end} />			
+		{:else}
+			<PlayButton on:click={play}>{$t('play')}</PlayButton>
+			{#if lastScore !== null}
+				<h2>{$t('lastScore')} {lastScore}</h2>
+			{/if}
 		{/if}
+		</section>
+		{#if !playing}
 		<footer>
 			<LanguageSwitch />
-			<a href="https://liip.ch"><Logo /></a>
-		</footer>	
-	{/if}
-</main>
+			<a href="https://liip.ch"><LiipLogo /></a>
+		</footer>
+		{/if}
+	</main>
