@@ -5,7 +5,7 @@
     "build": "rollup -c",
     "dev": "rollup -c -w",
     "start": "sirv public -s --host 0.0.0.0",
-    "deploy": "npm run build && gh-pages -d public"
+    "deploy": "npm run build && scp -P 2201 -rp public/* liip@ps10.ms.bsa.oriented.ch:/var/www/html/parlaqui.swiss"
   },
   "devDependencies": {
     "@rollup/plugin-json": "^4.0.0",
