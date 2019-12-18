@@ -36,7 +36,6 @@
     
     function next() {
         generateAnswers()
-        politician = answers.filter(a => a.wright)[0]
         round++
         time = tweened(1, { duration: maxTime, delay: 1000 })
         time.set(0)
@@ -56,11 +55,15 @@
         }
         clearTimeout(timer)
         showAnswers()
-        progress[round-1] = answer.wright
-        score += answer.wright * currentScore
+        let points = 0
+        if(answer.wright) {
+            points = currentScore
+        } else {
+            currentScore = 0
+        }
+        score += points
+        progress[round-1] = points
         time = readable($time)
-        answer.wrightID = politician.ID
-        tracking.gameAnswerClick(answer)
     }
 
     function generateAnswers() {
@@ -77,6 +80,7 @@
             res.push(answer)
         }
         answers = res
+        politician = answers.filter(a => a.wright)[0]
     }
 
     function showAnswers() {
@@ -112,7 +116,9 @@
 
 <section>
     <Avatar url={politician.ImageUrl} value={1 - $time} />
-    <Progress items={progress} />
+    <div>
+        <Progress items={progress} score={currentScore} round={round-1} />
+    </div>
     <div class="buttons">
         {#each answers as answer, index }
         <button
