@@ -8,8 +8,8 @@
 <div class="logo">
   <svg
     width="237"
-    height="147"
-    viewBox="0 0 237 147"
+    height="117"
+    viewBox="0 20 237 117"
     xmlns="http://www.w3.org/2000/svg">    
     <path
       d="M22.848 52.984H15.232L12.736 67H1.216L9.344 20.92H28.864C33.6853 20.92

@@ -6,7 +6,6 @@
         width: 3rem;
         height: 3rem;
         border-radius: 50%;
-        margin: 1rem 1rem 0 0;
         border: 1px solid white;
         background-color: white;
     }
