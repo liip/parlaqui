@@ -87,7 +87,6 @@
             next()
         }, 1000)
     }
-    const answerLabel = ({FirstName, LastName, PartyAbbreviation}) => `${FirstName} ${LastName} (${PartyAbbreviation})`
 </script>
 <style>
     .buttons {
@@ -120,7 +119,7 @@
             on:click={() => onAnswer(answer)} 
             class={showResults ? (answer.wright ? 'wright' : 'wrong') : ''}
         >
-            {answerLabel(answer)}
+            {answer.FirstName} {answer.LastName} ({$t('party', answer.Party)})
         </button>
         {/each}
     </div>

@@ -7,35 +7,34 @@ const imageUrl = id => `https://www.parlament.ch/sitecollectionimages/profil/por
 async function init() {
     const res = await api.get(`Person?$filter=Language eq 'DE' and MembersCouncil/Active eq true&$expand=MembersCouncil`)
     console.log(res.data.d.results.length)
-
+    
     const councillors = res.data.d.results.map(councillor => {
         return {
             ID: councillor.ID,
             FirstName: councillor.FirstName,
             LastName: councillor.LastName,
             GenderAsString: councillor.GenderAsString,            
-            // PersonIdCode: councillor.PersonIdCode,
             ImageUrl: councillor.PersonIdCode && imageUrl(councillor.PersonIdCode),
-            // PartyName: councillor.MembersCouncil && councillor.MembersCouncil.PartyName,
             PartyAbbreviation: councillor.MembersCouncil && councillor.MembersCouncil.PartyAbbreviation,
+            Party: councillor.MembersCouncil && councillor.MembersCouncil.Party,
         }
     })
     
-    /*
-    .filter(councillor => councillor.ImageUrl)
-    const promisses = councillors.map(async councillor => {
-        const { ImageUrl } = councillor
-        try {
-            await axios.get(ImageUrl)
-            return councillor
-        } catch(err) {
-            return null
-        }
-    })
-    const validCouncillors = (await axios.all(promisses)).filter(p => p !== null)
-    */
-
     fs.writeFileSync('councillors.json', JSON.stringify(councillors, null, 2))
+
+    const res2 = await api.get(`Party`)
+    const parties = res2.data.d.results.map(p => ({ 
+        ID: p.ID, 
+        Language: capitalize(p.Language.toLowerCase()),
+        // PartyName: p.PartyName,
+        PartyAbbreviation: p.PartyAbbreviation,
+    }))
+
+    fs.writeFileSync('parties.json', JSON.stringify(parties, null, 2))
+}
+
+function capitalize(value) {
+    return value.charAt(0).toUpperCase() + value.slice(1)
 }
 
 init()

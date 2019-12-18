@@ -1,5 +1,6 @@
 import { writable, derived } from 'svelte/store'
 import tracking from './tracking'
+import parties from '../parties.json'
 
 const defaultLanguage = 'de'
 export const languages = ['de', 'fr', 'it', 'rm']
@@ -19,38 +20,51 @@ function getDefaultLanguage() {
     return languages.find(l => l === urlLanguage) || localStorage.getItem('language') || defaultLanguage
 }
 
+const byId = lang => id => {
+    const p = parties.find(p => p.ID == id && p.Language === lang)
+    return p && p.PartyAbbreviation
+}
+
 const dictionaries = {
     de: {
         title: 'Parlaqui',
         description: 'Wer bin ich?',
         play: 'Spielen / jetzt loslegen',
-        lastScore: 'Teile dein Ergebnis:',
+        lastScore: 'Dein Ergebnis:',
         score: 'Punkte:',
+        party: byId('De'),
     },
     fr: {
         title: 'Parlaqui',
         description: 'Qui suis-je ?',
         play: 'Jouer / commencer maintenant',
-        lastScore: 'Partagez vos résultats',
+        lastScore: 'Ton score:',
         score: 'Points:',
+        party: byId('Fr'),
     },
     it: {
         title: 'Parlaqui',
         description: 'chi sono io?',
         play: 'gioca / inizia ora',
-        lastScore: 'condividi i tuoi risultati',
+        lastScore: 'il tuo punteggio:',
         score: 'Punti:',
+        party: byId('It'),
     },
     rm: {
         title: 'Parlaqui',
         description: 'tgi sun jau?',
         play: 'guigar / cumenzar uss',
-        lastScore: 'parta tes resultat',
+        lastScore: 'tes resultat:',
         score: 'Punkte:',
+        party: byId('Rm'),
     },
 }
 
-export const t = derived([language], (language) => (key) => { 
+export const t = derived([language], (language) => (key, args) => { 
     const dictionary = dictionaries[language] || {}
-    return dictionary[key] || `#${key}#`
+    const value = dictionary[key]
+    if(value) {
+        return typeof(value) === 'function' ? value(args) : value
+    }
+    return `#${key}#`
 })
