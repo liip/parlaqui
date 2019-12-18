@@ -41,6 +41,7 @@
 		margin-right: auto;
 		max-width: 400px;
 		height: 100%;
+		padding: 1rem;
 	}
 	footer {
 		display: flex;
@@ -59,6 +60,7 @@
 	header {
 		display: flex;
 		justify-content: space-between;
+		margin-bottom: 1rem;
 	}
 	/*
 	.background:before, .background:after {
