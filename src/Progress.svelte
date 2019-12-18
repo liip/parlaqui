@@ -16,15 +16,14 @@
     .progress-bar {
         display: flex;
         justify-content: center;
-        align-items: center;
         flex-wrap: wrap;
         padding: 0;
     }
     .dot {
         width: 1.2rem;
         height: 1.2rem;
-        line-height: 1.2rem;
-        margin: 0.25rem;
+        line-height: 1.0rem;
+        margin: 0.2rem;
         font-size: small;
         text-align: center;
         background-color: transparent;

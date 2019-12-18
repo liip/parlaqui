@@ -5,12 +5,12 @@
   }
   svg {
     width: 237px;
-    height: 80px;
+    height: 97px;
   }
   @media (max-width: 320px) {
     svg {
-      height: 40px;
       width: 115px;
+      height: 45px;
     }
   }
 </style>
