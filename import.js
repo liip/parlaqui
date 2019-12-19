@@ -3,7 +3,7 @@ const axios = require('axios')
 const api = axios.create({
     baseURL: 'https://ws.parlament.ch/odata.svc'
 })
-const imageUrl = id => `https://www.parlament.ch/sitecollectionimages/profil/portrait-260/${id}.jpg`
+const imageUrl = id => `https://parlaqui.rokka.io/par/-${id}.jpg-.jpg`
 async function init() {
     const res = await api.get(`Person?$filter=Language eq 'DE' and MembersCouncil/Active eq true&$expand=MembersCouncil`)
     console.log(res.data.d.results.length)
