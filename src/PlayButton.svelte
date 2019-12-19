@@ -4,7 +4,7 @@
         width: 220px;
         height: 220px;
         border-radius: 50%;
-        animation: shadow-pulse 2s infinite;
+        animation: shadow-pulse 1s infinite;
         color: white;
         background: #2c3e50; 
 	}

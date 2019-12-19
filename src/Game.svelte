@@ -25,6 +25,7 @@
     let timer
     let answerTimer
     let progress = new Array(maxRounds)
+    let isWrong = false;
     $: currentScore = Math.floor($time * 10)
 
     onDestroy(() => {
@@ -55,6 +56,7 @@
         }
         clearTimeout(timer)
         showAnswers()
+        isWrong = answer.ID !== politician.ID
         let points = 0
         if(answer.wright) {
             points = currentScore
@@ -88,6 +90,7 @@
         answerTimer = setTimeout(() => {
             answers = []
             showResults = false
+            isWrong = false
             next()
         }, 1000)
     }
@@ -114,6 +117,41 @@
         color: white;
         background-color: #6EA644;
     }
+    .shake {
+        animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+        transform: translate3d(0, 0, 0);
+        backface-visibility: hidden;
+        perspective: 1000px;
+    }
+    @keyframes shake {
+        10%, 90% {
+            transform: translate3d(-1px, 0, 0);
+        }
+        
+        20%, 80% {
+            transform: translate3d(2px, 0, 0);
+        }
+
+        30%, 50%, 70% {
+            transform: translate3d(-4px, 0, 0);
+        }
+
+        40%, 60% {
+            transform: translate3d(4px, 0, 0);
+        }
+    }
+    .winner {
+        animation: shadow-pulse 1s linear;
+    }
+    @keyframes shadow-pulse
+    {
+        0% {
+            box-shadow: 0 0 0 0px rgba(110,166,68, 0.2);
+        }
+        100% {
+            box-shadow: 0 0 0 35px rgba(110,166,68, 0);
+        }
+    }
 </style>
 
 <section>
@@ -121,11 +159,11 @@
     <div>
         <Progress items={progress} score={currentScore} round={round-1} />
     </div>
-    <div class="buttons">
+    <div class="buttons {isWrong ? 'shake' : ''}">
         {#each answers as answer, index }
         <button
             on:click={() => onAnswer(answer)} 
-            class={showResults ? (answer.wright ? 'wright' : 'wrong') : ''}
+            class={showResults ? (answer.wright ? `wright ${!isWrong ? 'winner' : ''}` : 'wrong') : ''}
         >
             {answer.FirstName} {answer.LastName} ({$t('party', answer.Party)})
         </button>
