@@ -12,6 +12,7 @@
 	import CloseButton from './CloseButton.svelte'
 	import { fade, fly } from 'svelte/transition'
 
+	let score = tweened(0, {duration: 1000})
 	let playing = false
 	let ende = false
 	let lastScore = null
@@ -41,6 +42,7 @@
 		playing = false
 		ende = true
 		lastScore = e.detail
+		score.set(lastScore)
 		tracking.gameEnd(lastScore)		
 	}
 	function selectCouncil(council) {
@@ -108,7 +110,7 @@
 			{/each}
 			</div>
 			{#if lastScore !== null}
-				<h2>{$t('lastScore')} {lastScore}</h2>
+				<h2>{$t('lastScore')} {Math.floor($score)}</h2>
 			{/if}
 		{/if}
 		</section>
