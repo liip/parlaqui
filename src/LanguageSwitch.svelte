@@ -16,7 +16,7 @@ $: currentLanguage = $language
         color: #414141;
         text-align: center;
         text-transform: uppercase;
-        padding: 0.4rem;
+        margin: 0.5rem;
     }
     .lang:hover, .lang.active {
         text-decoration: underline;

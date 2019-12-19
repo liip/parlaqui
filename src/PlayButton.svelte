@@ -6,7 +6,8 @@
         border-radius: 50%;
         animation: shadow-pulse 1s infinite;
         color: white;
-        background: #2c3e50; 
+        background: #2c3e50;
+        margin-bottom: 1rem;
 	}
     
     @keyframes shadow-pulse
