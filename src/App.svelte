@@ -15,6 +15,18 @@
 	let playing = false
 	let ende = false
 	let lastScore = null
+	let councils = [{
+		label: 'council.all',
+		councils: [1,2,99],
+	}, {
+		label: 'council.1',
+		councils: [1],
+	},
+	{
+		label: 'council.2',
+		councils: [2],
+	}]
+	let selectedCouncil = councils[0]
 
 	function play() {
 		playing = true
@@ -30,6 +42,9 @@
 		ende = true
 		lastScore = e.detail
 		tracking.gameEnd(lastScore)		
+	}
+	function selectCouncil(council) {
+		selectedCouncil = council
 	}
 </script>
 <style>
@@ -67,23 +82,12 @@
 			margin-bottom: 0;
 		}
   	}
-	/*
-	.background:before, .background:after {
-		z-index: -1;
-		content: "";
-		position: absolute;
-		top: -20vw;
-		left: -20vw;
-		width: 100vw;
-		height: 100vw;
-		background: linear-gradient(rgba(176, 176, 150, 0.2), hsla(0, 0%, 100%, 0));
-		border-radius: 50%;
+	.council a {
+		margin: 0.5rem;
 	}
-	.background:after {
-		transform: rotate(100deg);
-		top: 20vw;
-		left: 20vw;
-	}*/
+	.council a.selected {
+		text-decoration: underline;
+	}
 </style>
 <main>
 	<div>
@@ -94,10 +98,15 @@
 			{/if}
 		</header>
 		<section>
-		{#if playing}			
-			<Game on:end={end} />			
+		{#if playing}	
+			<Game on:end={end} councils={selectedCouncil.councils} />			
 		{:else}
 			<PlayButton on:click={play}>{$t('play')}</PlayButton>
+			<div class="council">
+			{#each councils as council}
+			<a href="javascript:" on:click={() => selectCouncil(council)} class:selected={council === selectedCouncil}>{$t(council.label)}</a>
+			{/each}
+			</div>
 			{#if lastScore !== null}
 				<h2>{$t('lastScore')} {lastScore}</h2>
 			{/if}
