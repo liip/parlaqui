@@ -13,6 +13,8 @@
 	import { fade, fly } from 'svelte/transition'
 
 	let score = tweened(0, {duration: 1000})
+	let intro = false
+	setTimeout(() => intro = true, 0)
 	let playing = false
 	let ende = false
 	let lastScore = null
@@ -93,14 +95,15 @@
 </style>
 <main>
 	<div>
-		<header class={playing && `playing`}>
+		<header>
 			<Logo />
 			{#if playing}
 			<CloseButton on:click={stop} />	
 			{/if}
 		</header>
-		<section>
-		{#if playing}	
+		{#if intro}
+		<section transition:fade={{delay: 3500, duration: 1000}}>
+		{#if playing}
 			<Game on:end={end} councils={selectedCouncil.councils} />			
 		{:else}
 			<PlayButton on:click={play}>{$t('play')}</PlayButton>
@@ -114,9 +117,12 @@
 			{/if}
 		{/if}
 		</section>
+		{/if}
 	</div>
-	<footer>
+	{#if intro}
+	<footer transition:fade={{delay: 3500, duration: 1000}}>
 		<LanguageSwitch />
 		<a aria-label="liip homepage" href="https://liip.ch"><LiipLogo /></a>
 	</footer>
+	{/if}
 </main>
