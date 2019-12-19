@@ -15,7 +15,7 @@
     const dispatch = createEventDispatcher()
     const maxRounds = 10
     const maxTime = maxRounds * 1000
-    const maxAnswers = 1
+    const maxAnswers = 4
     let round = 0
     let time = readable()
     let politician = {}
@@ -60,7 +60,7 @@
         let points = 0
         if(answer.wright) {
             points = Math.floor($time * 10)
-        } else {
+        } else { 
             currentScore = 0
         }
         score += points
