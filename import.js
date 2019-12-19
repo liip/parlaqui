@@ -22,14 +22,21 @@ async function init() {
     
     fs.writeFileSync('councillors.json', JSON.stringify(councillors, null, 2))
 
+    const councillorParties = []
+    councillors.forEach(councillor => {
+        if(!councillorParties.includes(councillor.Party)) {
+            councillorParties.push(councillor.Party)
+        }
+    })
+    
     const res2 = await api.get(`Party`)
     const parties = res2.data.d.results.map(p => ({ 
         ID: p.ID, 
         Language: capitalize(p.Language.toLowerCase()),
         // PartyName: p.PartyName,
         PartyAbbreviation: p.PartyAbbreviation,
-    }))
-
+    })).filter(party => councillorParties.includes(party.ID))
+    
     fs.writeFileSync('parties.json', JSON.stringify(parties, null, 2))
 }
 
