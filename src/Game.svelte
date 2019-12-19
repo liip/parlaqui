@@ -98,18 +98,20 @@
     }
     button {
         width: 100%;
+        transition: background-color 100ms linear;
     }
     button:focus {
         outline: 0;
-        border-color: #ccc;
     }
     section {
         text-align: center;
     }
     .wrong {
-        background-color: #ccc;
+        color: #ccc;
+        background-color: transparent;
     }
     .wright {
+        color: white;
         background-color: #6EA644;
     }
 </style>
