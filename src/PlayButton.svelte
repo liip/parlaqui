@@ -4,10 +4,11 @@
         width: 220px;
         height: 220px;
         border-radius: 50%;
-        animation: shadow-pulse 1s infinite;
+        animation: shadow-pulse 2s infinite;
+        animation-delay: 3.5s;
         color: white;
         background: #2c3e50;
-        margin-bottom: 1rem;
+        margin-bottom: 2rem;
 	}
     
     @keyframes shadow-pulse
