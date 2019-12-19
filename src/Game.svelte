@@ -13,7 +13,7 @@
     import Avatar from './Avatar.svelte'
     
     export let councils = []
-    const politicians = data.filter(p => councils.includes(p.Council))
+    let politicians = data.filter(p => councils.includes(p.Council))
     const dispatch = createEventDispatcher()
     const maxRounds = 10
     const maxTime = maxRounds * 1000
@@ -86,6 +86,7 @@
         }
         answers = res
         politician = answers.filter(a => a.wright)[0]
+        politicians = politicians.filter(p => p !== politician)
     }
 
     function showAnswers() {
