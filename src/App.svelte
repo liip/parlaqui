@@ -115,6 +115,6 @@
 	</div>
 	<footer>
 		<LanguageSwitch />
-		<a href="https://liip.ch"><LiipLogo /></a>
+		<a aria-label="liip homepage" href="https://liip.ch"><LiipLogo /></a>
 	</footer>
 </main>

@@ -25,6 +25,6 @@ $: currentLanguage = $language
 
 <nav>
 {#each languages as language (language)}
-    <a class="lang" class:active={language === currentLanguage} href={`/${language}`} on:click|preventDefault={() => setLanguage(language)}>{language}</a>
+    <a class="lang" class:active={language === currentLanguage} href="javascript:" on:click|preventDefault={() => setLanguage(language)}>{language}</a>
 {/each}
 </nav>
