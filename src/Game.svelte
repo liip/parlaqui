@@ -107,7 +107,7 @@
         text-align: center;
     }
     .wrong {
-        background-color: #c02e00;
+        background-color: #ccc;
     }
     .wright {
         background-color: #6EA644;

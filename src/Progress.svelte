@@ -36,8 +36,7 @@
         background-color: #6EA644;
     }
     .false {
-        color: white;
-        background-color: #c02e00;
+        background-color: #2c3e502d;
     }
     .current {
         border-color: #2c3e50;
@@ -47,7 +46,7 @@
 <div class="progress-bar">
     {#each items as item, index}
     <div class={getClass(item, index) + (index === round ? ' current' : '')}>
-        {index === round ? score : (item !== undefined) ? item : ''}
+        {index === round ? score : (item > 0) ? item : ''}
     </div>
     {/each}
 </div>
