@@ -17,6 +17,7 @@ async function init() {
             ImageUrl: councillor.PersonIdCode && imageUrl(councillor.PersonIdCode),
             PartyAbbreviation: councillor.MembersCouncil && councillor.MembersCouncil.PartyAbbreviation,
             Party: councillor.MembersCouncil && councillor.MembersCouncil.Party,
+            Council: councillor.MembersCouncil && councillor.MembersCouncil.Council,
         }
     })
     
@@ -32,16 +33,21 @@ async function init() {
     const res2 = await api.get(`Party`)
     const parties = res2.data.d.results.map(p => ({ 
         ID: p.ID, 
-        Language: capitalize(p.Language.toLowerCase()),
-        // PartyName: p.PartyName,
+        Language: p.Language,
         PartyAbbreviation: p.PartyAbbreviation,
     })).filter(party => councillorParties.includes(party.ID))
     
     fs.writeFileSync('parties.json', JSON.stringify(parties, null, 2))
-}
 
-function capitalize(value) {
-    return value.charAt(0).toUpperCase() + value.slice(1)
+    const res3 = await api.get(`Council`)
+    const councils = res3.data.d.map(c => ({ 
+        ID: c.ID, 
+        Language: c.Language,
+        CouncilName: c.CouncilName,
+        CouncilAbbreviation: c.CouncilAbbreviation
+    }))
+    
+    fs.writeFileSync('councils.json', JSON.stringify(councils, null, 2))
 }
 
 init()

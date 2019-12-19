@@ -1,0 +1,92 @@
+[
+  {
+    "ID": 3,
+    "Language": "DE",
+    "CouncilName": "Vereinigte Bundesversammlung",
+    "CouncilAbbreviation": "V"
+  },
+  {
+    "ID": 3,
+    "Language": "FR",
+    "CouncilName": "Assemblée fédérale (Chambres réunies)",
+    "CouncilAbbreviation": "V"
+  },
+  {
+    "ID": 3,
+    "Language": "IT",
+    "CouncilName": "Assemblea federale plenaria",
+    "CouncilAbbreviation": "AF"
+  },
+  {
+    "ID": 3,
+    "Language": "RM",
+    "CouncilName": "Vereinigte Bundesversammlung",
+    "CouncilAbbreviation": "V"
+  },
+  {
+    "ID": 3,
+    "Language": "EN",
+    "CouncilName": "Assemblée fédérale (Chambres réunies)",
+    "CouncilAbbreviation": "V"
+  },
+  {
+    "ID": 1,
+    "Language": "DE",
+    "CouncilName": "Nationalrat",
+    "CouncilAbbreviation": "NR"
+  },
+  {
+    "ID": 1,
+    "Language": "FR",
+    "CouncilName": "Conseil national",
+    "CouncilAbbreviation": "CN"
+  },
+  {
+    "ID": 1,
+    "Language": "IT",
+    "CouncilName": "Consiglio nazionale",
+    "CouncilAbbreviation": "CN"
+  },
+  {
+    "ID": 1,
+    "Language": "RM",
+    "CouncilName": "Nationalrat",
+    "CouncilAbbreviation": "NR"
+  },
+  {
+    "ID": 1,
+    "Language": "EN",
+    "CouncilName": "Conseil national",
+    "CouncilAbbreviation": "CN"
+  },
+  {
+    "ID": 2,
+    "Language": "DE",
+    "CouncilName": "Ständerat",
+    "CouncilAbbreviation": "SR"
+  },
+  {
+    "ID": 2,
+    "Language": "FR",
+    "CouncilName": "Conseil des Etats",
+    "CouncilAbbreviation": "CE"
+  },
+  {
+    "ID": 2,
+    "Language": "IT",
+    "CouncilName": "Consiglio degli Stati",
+    "CouncilAbbreviation": "CS"
+  },
+  {
+    "ID": 2,
+    "Language": "RM",
+    "CouncilName": "Ständerat",
+    "CouncilAbbreviation": "SR"
+  },
+  {
+    "ID": 2,
+    "Language": "EN",
+    "CouncilName": "Conseil des Etats",
+    "CouncilAbbreviation": "CE"
+  }
+]

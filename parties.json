@@ -1,427 +1,427 @@
 [
   {
     "ID": 12,
-    "Language": "De",
+    "Language": "DE",
     "PartyAbbreviation": "SP"
   },
   {
     "ID": 12,
-    "Language": "En",
+    "Language": "EN",
     "PartyAbbreviation": "PSS"
   },
   {
     "ID": 12,
-    "Language": "Fr",
+    "Language": "FR",
     "PartyAbbreviation": "PSS"
   },
   {
     "ID": 12,
-    "Language": "It",
+    "Language": "IT",
     "PartyAbbreviation": "PSS"
   },
   {
     "ID": 12,
-    "Language": "Rm",
+    "Language": "RM",
     "PartyAbbreviation": "SP"
   },
   {
     "ID": 13,
-    "Language": "De",
+    "Language": "DE",
     "PartyAbbreviation": "SVP"
   },
   {
     "ID": 13,
-    "Language": "En",
+    "Language": "EN",
     "PartyAbbreviation": "UDC"
   },
   {
     "ID": 13,
-    "Language": "Fr",
+    "Language": "FR",
     "PartyAbbreviation": "UDC"
   },
   {
     "ID": 13,
-    "Language": "It",
+    "Language": "IT",
     "PartyAbbreviation": "UDC"
   },
   {
     "ID": 13,
-    "Language": "Rm",
+    "Language": "RM",
     "PartyAbbreviation": "SVP"
   },
   {
     "ID": 14,
-    "Language": "De",
+    "Language": "DE",
     "PartyAbbreviation": "CVP"
   },
   {
     "ID": 14,
-    "Language": "En",
+    "Language": "EN",
     "PartyAbbreviation": "PDC"
   },
   {
     "ID": 14,
-    "Language": "Fr",
+    "Language": "FR",
     "PartyAbbreviation": "PDC"
   },
   {
     "ID": 14,
-    "Language": "It",
+    "Language": "IT",
     "PartyAbbreviation": "PPD"
   },
   {
     "ID": 14,
-    "Language": "Rm",
+    "Language": "RM",
     "PartyAbbreviation": "CVP"
   },
   {
     "ID": 15,
-    "Language": "De",
+    "Language": "DE",
     "PartyAbbreviation": "FDP-Liberale"
   },
   {
     "ID": 15,
-    "Language": "En",
+    "Language": "EN",
     "PartyAbbreviation": "PLR"
   },
   {
     "ID": 15,
-    "Language": "Fr",
+    "Language": "FR",
     "PartyAbbreviation": "PLR"
   },
   {
     "ID": 15,
-    "Language": "It",
+    "Language": "IT",
     "PartyAbbreviation": "PLR"
   },
   {
     "ID": 15,
-    "Language": "Rm",
+    "Language": "RM",
     "PartyAbbreviation": "FDP-Liberale"
   },
   {
     "ID": 16,
-    "Language": "De",
+    "Language": "DE",
     "PartyAbbreviation": "LDP"
   },
   {
     "ID": 16,
-    "Language": "En",
+    "Language": "EN",
     "PartyAbbreviation": "PLD"
   },
   {
     "ID": 16,
-    "Language": "Fr",
+    "Language": "FR",
     "PartyAbbreviation": "PLD"
   },
   {
     "ID": 16,
-    "Language": "It",
+    "Language": "IT",
     "PartyAbbreviation": "PLD"
   },
   {
     "ID": 16,
-    "Language": "Rm",
+    "Language": "RM",
     "PartyAbbreviation": "LDP"
   },
   {
     "ID": 18,
-    "Language": "De",
+    "Language": "DE",
     "PartyAbbreviation": "EVP"
   },
   {
     "ID": 18,
-    "Language": "En",
+    "Language": "EN",
     "PartyAbbreviation": "PEV"
   },
   {
     "ID": 18,
-    "Language": "Fr",
+    "Language": "FR",
     "PartyAbbreviation": "PEV"
   },
   {
     "ID": 18,
-    "Language": "It",
+    "Language": "IT",
     "PartyAbbreviation": "PEV"
   },
   {
     "ID": 18,
-    "Language": "Rm",
+    "Language": "RM",
     "PartyAbbreviation": "EVP"
   },
   {
     "ID": 20,
-    "Language": "De",
+    "Language": "DE",
     "PartyAbbreviation": "GPS"
   },
   {
     "ID": 20,
-    "Language": "En",
+    "Language": "EN",
     "PartyAbbreviation": "PES"
   },
   {
     "ID": 20,
-    "Language": "Fr",
+    "Language": "FR",
     "PartyAbbreviation": "PES"
   },
   {
     "ID": 20,
-    "Language": "It",
+    "Language": "IT",
     "PartyAbbreviation": "PES"
   },
   {
     "ID": 20,
-    "Language": "Rm",
+    "Language": "RM",
     "PartyAbbreviation": "GPS"
   },
   {
     "ID": 22,
-    "Language": "De",
+    "Language": "DE",
     "PartyAbbreviation": "PdA"
   },
   {
     "ID": 22,
-    "Language": "En",
+    "Language": "EN",
     "PartyAbbreviation": "PdT"
   },
   {
     "ID": 22,
-    "Language": "Fr",
+    "Language": "FR",
     "PartyAbbreviation": "PdT"
   },
   {
     "ID": 22,
-    "Language": "It",
+    "Language": "IT",
     "PartyAbbreviation": "PdL"
   },
   {
     "ID": 22,
-    "Language": "Rm",
+    "Language": "RM",
     "PartyAbbreviation": "PdA"
   },
   {
     "ID": 23,
-    "Language": "De",
+    "Language": "DE",
     "PartyAbbreviation": "Lega"
   },
   {
     "ID": 23,
-    "Language": "En",
+    "Language": "EN",
     "PartyAbbreviation": "Lega"
   },
   {
     "ID": 23,
-    "Language": "Fr",
+    "Language": "FR",
     "PartyAbbreviation": "Lega"
   },
   {
     "ID": 23,
-    "Language": "It",
+    "Language": "IT",
     "PartyAbbreviation": "Lega"
   },
   {
     "ID": 23,
-    "Language": "Rm",
+    "Language": "RM",
     "PartyAbbreviation": "Lega"
   },
   {
     "ID": 24,
-    "Language": "De",
+    "Language": "DE",
     "PartyAbbreviation": "EDU"
   },
   {
     "ID": 24,
-    "Language": "En",
+    "Language": "EN",
     "PartyAbbreviation": "UDF"
   },
   {
     "ID": 24,
-    "Language": "Fr",
+    "Language": "FR",
     "PartyAbbreviation": "UDF"
   },
   {
     "ID": 24,
-    "Language": "It",
+    "Language": "IT",
     "PartyAbbreviation": "UDF"
   },
   {
     "ID": 24,
-    "Language": "Rm",
+    "Language": "RM",
     "PartyAbbreviation": "EDU"
   },
   {
     "ID": 26,
-    "Language": "De",
+    "Language": "DE",
     "PartyAbbreviation": "-"
   },
   {
     "ID": 26,
-    "Language": "En",
+    "Language": "EN",
     "PartyAbbreviation": "-"
   },
   {
     "ID": 26,
-    "Language": "Fr",
+    "Language": "FR",
     "PartyAbbreviation": "-"
   },
   {
     "ID": 26,
-    "Language": "It",
+    "Language": "IT",
     "PartyAbbreviation": "-"
   },
   {
     "ID": 26,
-    "Language": "Rm",
+    "Language": "RM",
     "PartyAbbreviation": "-"
   },
   {
     "ID": 1336,
-    "Language": "De",
+    "Language": "DE",
     "PartyAbbreviation": "glp"
   },
   {
     "ID": 1336,
-    "Language": "En",
+    "Language": "EN",
     "PartyAbbreviation": "pvl"
   },
   {
     "ID": 1336,
-    "Language": "Fr",
+    "Language": "FR",
     "PartyAbbreviation": "pvl"
   },
   {
     "ID": 1336,
-    "Language": "It",
+    "Language": "IT",
     "PartyAbbreviation": "pvl"
   },
   {
     "ID": 1336,
-    "Language": "Rm",
+    "Language": "RM",
     "PartyAbbreviation": "glp"
   },
   {
     "ID": 1551,
-    "Language": "De",
+    "Language": "DE",
     "PartyAbbreviation": "BDP"
   },
   {
     "ID": 1551,
-    "Language": "En",
+    "Language": "EN",
     "PartyAbbreviation": "PBD"
   },
   {
     "ID": 1551,
-    "Language": "Fr",
+    "Language": "FR",
     "PartyAbbreviation": "PBD"
   },
   {
     "ID": 1551,
-    "Language": "It",
+    "Language": "IT",
     "PartyAbbreviation": "PBD"
   },
   {
     "ID": 1551,
-    "Language": "Rm",
+    "Language": "RM",
     "PartyAbbreviation": "BDP"
   },
   {
     "ID": 1582,
-    "Language": "De",
+    "Language": "DE",
     "PartyAbbreviation": "BastA"
   },
   {
     "ID": 1582,
-    "Language": "En",
+    "Language": "EN",
     "PartyAbbreviation": "BastA"
   },
   {
     "ID": 1582,
-    "Language": "Fr",
+    "Language": "FR",
     "PartyAbbreviation": "BastA"
   },
   {
     "ID": 1582,
-    "Language": "It",
+    "Language": "IT",
     "PartyAbbreviation": "BastA"
   },
   {
     "ID": 1582,
-    "Language": "Rm",
+    "Language": "RM",
     "PartyAbbreviation": "BastA"
   },
   {
     "ID": 1583,
-    "Language": "De",
+    "Language": "DE",
     "PartyAbbreviation": "CVPO"
   },
   {
     "ID": 1583,
-    "Language": "En",
+    "Language": "EN",
     "PartyAbbreviation": "CVPO"
   },
   {
     "ID": 1583,
-    "Language": "Fr",
+    "Language": "FR",
     "PartyAbbreviation": "CVPO"
   },
   {
     "ID": 1583,
-    "Language": "It",
+    "Language": "IT",
     "PartyAbbreviation": "CVPO"
   },
   {
     "ID": 1583,
-    "Language": "Rm",
+    "Language": "RM",
     "PartyAbbreviation": "CVPO"
   },
   {
     "ID": 1584,
-    "Language": "De",
+    "Language": "DE",
     "PartyAbbreviation": "Al"
   },
   {
     "ID": 1584,
-    "Language": "En",
+    "Language": "EN",
     "PartyAbbreviation": "Al"
   },
   {
     "ID": 1584,
-    "Language": "Fr",
+    "Language": "FR",
     "PartyAbbreviation": "Al"
   },
   {
     "ID": 1584,
-    "Language": "It",
+    "Language": "IT",
     "PartyAbbreviation": "Al"
   },
   {
     "ID": 1584,
-    "Language": "Rm",
+    "Language": "RM",
     "PartyAbbreviation": "Al"
   },
   {
     "ID": 1585,
-    "Language": "De",
+    "Language": "DE",
     "PartyAbbreviation": "EGsolS"
   },
   {
     "ID": 1585,
-    "Language": "En",
+    "Language": "EN",
     "PartyAbbreviation": "EGsolS"
   },
   {
     "ID": 1585,
-    "Language": "Fr",
+    "Language": "FR",
     "PartyAbbreviation": "EGsolS"
   },
   {
     "ID": 1585,
-    "Language": "It",
+    "Language": "IT",
     "PartyAbbreviation": "EGsolS"
   },
   {
     "ID": 1585,
-    "Language": "Rm",
+    "Language": "RM",
     "PartyAbbreviation": "EGsolS"
   }
 ]

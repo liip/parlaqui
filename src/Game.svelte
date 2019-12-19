@@ -6,12 +6,14 @@
     import { quintOut } from 'svelte/easing';
     import { tweened } from 'svelte/motion'
     import { rand } from './util'
-    import politicians from '../councillors.json'
+    import data from '../councillors.json'
     import { t } from './i18n'
     import tracking from './tracking'
     import Progress from './Progress.svelte'
     import Avatar from './Avatar.svelte'
-
+    
+    export let councils = []
+    const politicians = data.filter(p => councils.includes(p.Council))
     const dispatch = createEventDispatcher()
     const maxRounds = 10
     const maxTime = maxRounds * 1000
