@@ -18,6 +18,7 @@
         justify-content: center;
         flex-wrap: wrap;
         padding: 0;
+        margin-bottom: 1rem;
     }
     .dot {
         width: 1.2rem;
@@ -47,6 +48,11 @@
     }
     .current.true {
         border-color: #6EA644;
+    }
+    @media (max-width: 360px) {
+        .progress-bar {
+            margin-bottom: 0.5rem;
+        }
     }
 </style>
 

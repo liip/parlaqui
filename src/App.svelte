@@ -37,7 +37,6 @@
 		margin-left: auto;
 		margin-right: auto;
 		max-width: 400px;
-		height: 100%;
 		padding: 1rem;
 	}
 	footer {
@@ -48,9 +47,6 @@
 	a {
     	color: #414141;
 	}
-	.background {
-		height: 100%;
-	}
 	section {
 		text-align: center;
 		margin-bottom: 1rem;
@@ -60,6 +56,17 @@
 		justify-content: space-between;
 		margin-bottom: 1rem;
 	}
+	@media (max-width: 320px) {
+		main {
+			padding: 0.5rem;	
+		}
+		section {
+			margin-bottom: 0.5rem;
+		}
+		header {
+			margin-bottom: 0;
+		}
+  	}
 	/*
 	.background:before, .background:after {
 		z-index: -1;

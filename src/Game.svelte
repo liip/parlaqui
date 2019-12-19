@@ -97,7 +97,7 @@
 </script>
 <style>
     .buttons {
-        padding-top: 1rem;
+        margin-bottom: 1rem;
     }
     button {
         width: 100%;

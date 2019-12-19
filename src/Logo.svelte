@@ -7,7 +7,7 @@
     width: 237px;
     height: 97px;
   }
-  @media (max-width: 320px) {
+  @media (max-width: 360px) {
     svg {
       width: 115px;
       height: 45px;

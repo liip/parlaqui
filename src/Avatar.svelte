@@ -27,6 +27,11 @@
         display: inline-block;
         margin-bottom: 1rem;
     }
+    @media (max-width: 360px) {
+        .avatar {
+            margin-bottom: 0.5rem;
+        }
+    }
 </style>
 <div class="avatar">
     <img src={url} alt="image of">
