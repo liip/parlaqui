@@ -71,8 +71,8 @@ const dictionaries = {
         party: byId('RM'),
         quit: 'finir',
         'council.all': 'Tuot',
-        'council.1': 'Cusseglier Naziunal',
-        'council.2': 'Cusseglier Dals Stadis',
+        'council.1': 'Cussegl naziunal',
+        'council.2': 'Cussegl dals chantuns',
     },
 }
 
