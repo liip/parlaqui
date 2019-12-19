@@ -12,10 +12,10 @@
     @keyframes shadow-pulse
     {
         0% {
-            box-shadow: 0 0 0 0px rgba(110,166,68, 0.2);
+            box-shadow: 0 0 0 0px rgba(44,62,80, 0.2);
         }
         100% {
-            box-shadow: 0 0 0 35px rgba(0, 0, 0, 0);
+            box-shadow: 0 0 0 35px rgba(44,62,80, 0);
         }
     }
 </style>

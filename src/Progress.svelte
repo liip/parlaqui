@@ -28,18 +28,25 @@
         text-align: center;
         background-color: transparent;
         border-radius: 50%;
-        border: 1px solid #ccc;
-        transition: width 250ms linear, height 250ms linear;
+        border: 1px solid #2c3e5020;
+        transition: background-color 250ms linear;
     }
     .true {
         color: white;
         background-color: #6EA644;
     }
     .false {
-        background-color: #2c3e502d;
+        color: transparent;
+        background-color: #2c3e5020;
     }
     .current {
         border-color: #2c3e50;
+    }
+    .current.false {
+        border-color: #2c3e5020;
+    }
+    .current.true {
+        border-color: #6EA644;
     }
 </style>
 
