@@ -5,7 +5,7 @@
     "build": "rollup -c",
     "dev": "rollup -c -w",
     "start": "sirv public",
-    "deploy": "npm run build && scp -rp public/* parlaqui:/var/www/html/parlaqui.swiss",
+    "deploy": "npm run build && scp -rp public/* parlaqui:/var/www/html/parlaqui.ch",
     "import": "node import.js"
   },
   "devDependencies": {
