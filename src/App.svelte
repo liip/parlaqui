@@ -63,8 +63,14 @@
 		justify-content: space-between;
 		margin-bottom: 1rem;
 	}
-	a {
+	a, button {
     	color: #414141;
+	}
+	button {
+		background: none;
+		border: none;
+		margin: 0;
+		padding: 0;
 	}
 	section {
 		text-align: center;
@@ -86,10 +92,10 @@
 			margin-bottom: 0;
 		}
   	}
-	.council a {
+	.council button {
 		margin: 0.5rem;
 	}
-	.council a.selected {
+	.council button.selected {
 		text-decoration: underline;
 	}
 </style>
@@ -109,7 +115,7 @@
 			<PlayButton on:click={play}>{$t('play')}</PlayButton>
 			<div class="council">
 			{#each councils as council}
-			<a href="javascript:" on:click={() => selectCouncil(council)} class:selected={council === selectedCouncil}>{$t(council.label)}</a>
+			<button on:click={() => selectCouncil(council)} class:selected={council === selectedCouncil}>{$t(council.label)}</button>
 			{/each}
 			</div>
 			{#if lastScore !== null}

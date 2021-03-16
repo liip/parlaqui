@@ -34,7 +34,7 @@
     }
 </style>
 <div class="avatar">
-    <img src={url} alt="image of">
+    <img src={url} alt="avatar of">
     <svg viewBox="-130 -130 260 260">
         <circle cx="0" cy="0" r="125" style={style} />
     </svg>

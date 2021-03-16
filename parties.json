@@ -300,31 +300,6 @@
     "PartyAbbreviation": "glp"
   },
   {
-    "ID": 1551,
-    "Language": "DE",
-    "PartyAbbreviation": "BDP"
-  },
-  {
-    "ID": 1551,
-    "Language": "EN",
-    "PartyAbbreviation": "PBD"
-  },
-  {
-    "ID": 1551,
-    "Language": "FR",
-    "PartyAbbreviation": "PBD"
-  },
-  {
-    "ID": 1551,
-    "Language": "IT",
-    "PartyAbbreviation": "PBD"
-  },
-  {
-    "ID": 1551,
-    "Language": "RM",
-    "PartyAbbreviation": "BDP"
-  },
-  {
     "ID": 1582,
     "Language": "DE",
     "PartyAbbreviation": "BastA"
@@ -348,31 +323,6 @@
     "ID": 1582,
     "Language": "RM",
     "PartyAbbreviation": "BastA"
-  },
-  {
-    "ID": 1583,
-    "Language": "DE",
-    "PartyAbbreviation": "CVPO"
-  },
-  {
-    "ID": 1583,
-    "Language": "EN",
-    "PartyAbbreviation": "CVPO"
-  },
-  {
-    "ID": 1583,
-    "Language": "FR",
-    "PartyAbbreviation": "CVPO"
-  },
-  {
-    "ID": 1583,
-    "Language": "IT",
-    "PartyAbbreviation": "CVPO"
-  },
-  {
-    "ID": 1583,
-    "Language": "RM",
-    "PartyAbbreviation": "CVPO"
   },
   {
     "ID": 1584,
@@ -423,5 +373,30 @@
     "ID": 1585,
     "Language": "RM",
     "PartyAbbreviation": "EGsolS"
+  },
+  {
+    "ID": 1586,
+    "Language": "DE",
+    "PartyAbbreviation": "M"
+  },
+  {
+    "ID": 1586,
+    "Language": "EN",
+    "PartyAbbreviation": "M"
+  },
+  {
+    "ID": 1586,
+    "Language": "FR",
+    "PartyAbbreviation": "M"
+  },
+  {
+    "ID": 1586,
+    "Language": "IT",
+    "PartyAbbreviation": "M"
+  },
+  {
+    "ID": 1586,
+    "Language": "RM",
+    "PartyAbbreviation": "M"
   }
 ]
