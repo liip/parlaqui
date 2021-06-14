@@ -152,27 +152,27 @@
   {
     "ID": 20,
     "Language": "DE",
-    "PartyAbbreviation": "GPS"
+    "PartyAbbreviation": "GRÜNE"
   },
   {
     "ID": 20,
     "Language": "EN",
-    "PartyAbbreviation": "PES"
+    "PartyAbbreviation": "VERT-E-S"
   },
   {
     "ID": 20,
     "Language": "FR",
-    "PartyAbbreviation": "PES"
+    "PartyAbbreviation": "VERT-E-S"
   },
   {
     "ID": 20,
     "Language": "IT",
-    "PartyAbbreviation": "PES"
+    "PartyAbbreviation": "VERDI"
   },
   {
     "ID": 20,
     "Language": "RM",
-    "PartyAbbreviation": "GPS"
+    "PartyAbbreviation": "GRÜNE"
   },
   {
     "ID": 22,
@@ -377,26 +377,26 @@
   {
     "ID": 1586,
     "Language": "DE",
-    "PartyAbbreviation": "M"
+    "PartyAbbreviation": "M-E"
   },
   {
     "ID": 1586,
     "Language": "EN",
-    "PartyAbbreviation": "M"
+    "PartyAbbreviation": "M-E"
   },
   {
     "ID": 1586,
     "Language": "FR",
-    "PartyAbbreviation": "M"
+    "PartyAbbreviation": "M-E"
   },
   {
     "ID": 1586,
     "Language": "IT",
-    "PartyAbbreviation": "M"
+    "PartyAbbreviation": "M-E"
   },
   {
     "ID": 1586,
     "Language": "RM",
-    "PartyAbbreviation": "M"
+    "PartyAbbreviation": "M-E"
   }
 ]
