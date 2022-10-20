@@ -1,0 +1,30 @@
+---
+.node_job:
+  image: node:16-alpine
+  tags:
+    - docker
+  cache:
+    key:
+      files:
+        - package-lock.json
+    paths:
+      - .npm/
+  variables:
+    NPM_CONFIG_CACHE: '.npm'
+    NPM_CONFIG_PREFER_OFFLINE: 'true'
+  before_script:
+    - node --version
+    - npm --version
+    - npm ci
+
+pages:
+  extends: .node_job
+  script:
+    - npm run import
+    - npm run build
+  artifacts:
+    paths:
+      - public
+  rules:
+    - if: $CI_COMMIT_REF_NAME == $CI_DEFAULT_BRANCH
+
