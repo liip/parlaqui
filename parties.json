@@ -175,31 +175,6 @@
     "PartyAbbreviation": "GRÜNE"
   },
   {
-    "ID": 22,
-    "Language": "DE",
-    "PartyAbbreviation": "PdA"
-  },
-  {
-    "ID": 22,
-    "Language": "EN",
-    "PartyAbbreviation": "PdT"
-  },
-  {
-    "ID": 22,
-    "Language": "FR",
-    "PartyAbbreviation": "PdT"
-  },
-  {
-    "ID": 22,
-    "Language": "IT",
-    "PartyAbbreviation": "PdL"
-  },
-  {
-    "ID": 22,
-    "Language": "RM",
-    "PartyAbbreviation": "PdA"
-  },
-  {
     "ID": 23,
     "Language": "DE",
     "PartyAbbreviation": "Lega"
@@ -250,31 +225,6 @@
     "PartyAbbreviation": "EDU"
   },
   {
-    "ID": 26,
-    "Language": "DE",
-    "PartyAbbreviation": "-"
-  },
-  {
-    "ID": 26,
-    "Language": "EN",
-    "PartyAbbreviation": "-"
-  },
-  {
-    "ID": 26,
-    "Language": "FR",
-    "PartyAbbreviation": "-"
-  },
-  {
-    "ID": 26,
-    "Language": "IT",
-    "PartyAbbreviation": "-"
-  },
-  {
-    "ID": 26,
-    "Language": "RM",
-    "PartyAbbreviation": "-"
-  },
-  {
     "ID": 1336,
     "Language": "DE",
     "PartyAbbreviation": "glp"
@@ -300,6 +250,31 @@
     "PartyAbbreviation": "glp"
   },
   {
+    "ID": 1576,
+    "Language": "DE",
+    "PartyAbbreviation": "MCG"
+  },
+  {
+    "ID": 1576,
+    "Language": "EN",
+    "PartyAbbreviation": "MCG"
+  },
+  {
+    "ID": 1576,
+    "Language": "FR",
+    "PartyAbbreviation": "MCG"
+  },
+  {
+    "ID": 1576,
+    "Language": "IT",
+    "PartyAbbreviation": "MCG"
+  },
+  {
+    "ID": 1576,
+    "Language": "RM",
+    "PartyAbbreviation": "MCG"
+  },
+  {
     "ID": 1582,
     "Language": "DE",
     "PartyAbbreviation": "BastA"
@@ -348,31 +323,6 @@
     "ID": 1584,
     "Language": "RM",
     "PartyAbbreviation": "Al"
-  },
-  {
-    "ID": 1585,
-    "Language": "DE",
-    "PartyAbbreviation": "EàG"
-  },
-  {
-    "ID": 1585,
-    "Language": "EN",
-    "PartyAbbreviation": "EàG"
-  },
-  {
-    "ID": 1585,
-    "Language": "FR",
-    "PartyAbbreviation": "EàG"
-  },
-  {
-    "ID": 1585,
-    "Language": "IT",
-    "PartyAbbreviation": "EàG"
-  },
-  {
-    "ID": 1585,
-    "Language": "RM",
-    "PartyAbbreviation": "EàG"
   },
   {
     "ID": 1586,
